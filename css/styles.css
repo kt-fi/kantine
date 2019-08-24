@@ -24,6 +24,10 @@ h1 {
   padding-top: 50px;
 }
 
+.logo{
+  width: 600px;
+}
+
 .chrisJen {
   border-radius: 50%;
   width: 200px;
