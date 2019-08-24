@@ -1,8 +1,16 @@
 
 body {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: center;
+}
+p {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  padding 30px;
 }
 .header {
   padding: 7% 15%;
@@ -10,6 +18,10 @@ body {
   font-family: 'Dancing Script', cursive;
   line-height: 3;
 
+}
+
+.heart {
+  padding-top: 50px;
 }
 
 .chrisJen {
