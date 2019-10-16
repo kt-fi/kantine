@@ -48,3 +48,8 @@ document.getElementById("nine").addEventListener("click", function(){
     document.getElementById("resultBar").innerHTML = result + 9;
     result = result + 9;
 });
+
+document.getElementById("clear").addEventListener("click", function(){
+    document.getElementById("resultBar").innerHTML = 0;
+    result = 0;
+});
