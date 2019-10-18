@@ -1,69 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>My Javascript Calculator</title>
-<link rel="stylesheet" href="styles.css">
-</head>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Game Prototype</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="gameTitle">SONIC ADVENTURE 3</h1>
+    </div>
 
-<body>
+    <div class="main">
+      <p>Lives: <span id="lives">5</span></p>
+      <p>Rings: <span id="rings">0</span></p>
+       <img id="placeholder" src="placeholder.jpg" alt="">
+       <div class="buttons">
+         <button id="btnOne" type="button" name="button">Do Good</button>
+         <button id="btnTwo" type="button" name="button">Jump Off Cliff</button>
+       </div>
+    </div>
 
-        <h1>Chris Hillmans Calculator</h1>
 
-
-    <table>
-        <tr> <p id="resultBar">0</p></tr>
-        <tr>
-            <td>
-                <button id="one">1</button> 
-            </td>
-            <td>
-                    <button id="two">2</button> 
-            </td>
-            <td>
-                    <button id="three">3</button> 
-            </td>
-            <td>
-                +
-            </td>
-        </tr>
-        <td>
-                <button id="four">4</button> 
-            </td>
-            <td>
-                    <button id="five">5</button> 
-            </td>
-            <td>
-                    <button id="six">6</button> 
-            </td>
-            <td>
-                -
-            </td>
-        </tr>
-        <td>
-                <button id="seven">7</button> 
-
-            </td>
-            <td>
-                    <button id="eight">8</button> 
-
-            </td>
-            <td>
-                    <button id="nine">9</button> 
-
-            </td>
-            <td>
-                    <button id="clear">C</button> 
-
-            </td>
-        </tr>
-
-        
-
-    </table>
-
-</body>
-
-<script src="index.js"></script>
-
+    <script src=index.js></script>
+  </body>
 </html>
