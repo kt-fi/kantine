@@ -1,16 +1,16 @@
 var lives = 5;
-var rings = 0;
+var points = 0;
 
 var btnOne = document.getElementById("btnOne").addEventListener("click", function(){
-  document.getElementById('placeholder').src = "placeholder2.jpg";
+  document.getElementById('placeholder').src = "sonic_ring.gif";
 
-  rings = rings + 10;
-  document.getElementById("rings").innerHTML = rings;
+  points = points + 10;
+  document.getElementById("points").innerHTML = points;
 
 });
 
 var btnTwo = document.getElementById("btnTwo").addEventListener("click", function(){
-  document.getElementById('placeholder').src = "placeholder2.jpg";
+  document.getElementById('placeholder').src = "sonic_dead.jpg";
 
   lives = lives - 1;
   document.getElementById("lives").innerHTML = lives;

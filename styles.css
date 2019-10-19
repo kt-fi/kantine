@@ -5,6 +5,8 @@
   font-size: 2.5em;
 }
 
-.buttons{
-  display: inline-block;
+#placeholder{
+  width: 500px;
+  height: 200px;
+
 }
