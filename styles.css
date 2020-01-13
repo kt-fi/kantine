@@ -5,7 +5,15 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
 }
+
+.htmlJs{
+  display: block;
+  margin: 0 auto 0 auto;
+  margin-bottom: 40px;
+}
+
 
 .navbar-brand {
   width: 75%;
@@ -25,9 +33,13 @@ h2 {
   padding: 20px 50px 10px 50px;
 }
 
+.icon {
+  padding: 0 10px 0 10px
+}
+
 #kt-logo {
   display: block;
-  margin: 30px auto 30px auto;
+  margin: 0 auto 0 auto;
 }
 
 #carouselExampleCaptions {
@@ -63,6 +75,6 @@ footer {
 
 .mainSection {
   color: black;
-  padding: 100px 20% 150px 20%;
+  padding: 100px 15% 150px 15%;
   background-color: #D4E2FF;
 }
