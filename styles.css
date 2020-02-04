@@ -1,0 +1,139 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+.htmlJs{
+  display: block;
+  margin: 0 auto 0 auto;
+  margin-bottom: 40px;
+}
+
+
+.navbar-brand {
+  width: 75%;
+  padding: 20px 0 10px 50px;
+}
+
+h2 {
+  color: white;
+}
+
+.carousel-size {
+  width: 75%;
+}
+
+.navbar-dark {
+  font-size: 1.1em;
+  padding: 20px 50px 10px 50px;
+}
+
+.icon {
+  padding: 0 10px 0 10px
+}
+
+.ktAnim {
+  animation-name: ktAnimation;
+  animation-duration: 2s;
+}
+
+.linksAnim {
+  animation-name: linksAnimation;
+  animation-duration: 3s;
+}
+
+
+
+#kt-logo {
+  display: block;
+  margin: 0 auto 0 auto;
+
+  animation-name: ktLogo;
+  animation-duration: 2s;
+}
+
+#carouselExampleCaptions {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects {
+  display: inline-block;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #6498FF;
+  color: white;
+  padding: 30px 0;
+}
+
+.copy {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.mainSection {
+  color: black;
+  padding: 100px 15% 150px 15%;
+  background-color: #D4E2FF;
+}
+
+@keyframes ktAnimation {
+
+  0%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes linksAnimation {
+
+  0%{
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes ktLogo {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
