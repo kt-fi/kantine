@@ -167,6 +167,8 @@ a:hover {
 
 .kt-logo-small {
   width: 8rem;
+  animation: fadeInPic;
+  animation-duration: 3s;
 }
 
 .intro-text {
@@ -187,6 +189,8 @@ a:hover {
   padding: 10px;
   border-radius: 15px;
   text-decoration: none;
+  animation: fadeInPic;
+  animation-duration: 4s;
 }
 
 .btn:hover {
