@@ -1,18 +1,12 @@
-var lives = 5;
-var points = 0;
-
-var btnOne = document.getElementById("btnOne").addEventListener("click", function(){
-  document.getElementById('placeholder').src = "sonic_ring.gif";
-
-  points = points + 10;
-  document.getElementById("points").innerHTML = points;
-
+$(".enterBtn").click(function(){
+  $(".intro").slideToggle(2000);
+  $(".title").slideDown(2000);
+  $(".navbar").slideToggle(2000);
+  $("main").slideDown(2000);
 });
 
-var btnTwo = document.getElementById("btnTwo").addEventListener("click", function(){
-  document.getElementById('placeholder').src = "sonic_dead.jpg";
+$(".navbar").hide();
+$(".title").hide();
+$("main").hide();
 
-  lives = lives - 1;
-  document.getElementById("lives").innerHTML = lives;
-
-});
+ 

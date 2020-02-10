@@ -1,12 +1,217 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    font-family: 'Nunito', sans-serif;
+* {
+  border: 0;
+  margin: 0;
 }
+
+
+
+header {
+  display: block;
+  height: 100vh;
+  background-image: url("https://s27691.pcdn.co/wp-content/uploads/2014/09/hero.jpg.webp");
+  background-size: cover;
+  color: white;
+ 
+}
+
+.intro-heading {
+  animation: slideRight;
+  animation-duration: 2s;
+
+}
+
+.intro-caption {
+  animation: slideLeft;
+  animation-duration: 2s;
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.intro {
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.intro-heading {
+  letter-spacing: .3rem;
+}
+
+.intro-caption {
+  letter-spacing: 1.1rem;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  z-index: 0;
+  background-color: rgba(78, 78, 78, 0.7);
+  height: 100vh;
+  width: 100%;
+}
+
+.main-title {
+  padding-bottom: 150px;
+}
+
+.skills {
+  height: 20rem;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.downArrow {
+  font-size: 5rem;
+  transform: translateY(-5rem);
+  text-decoration: none;
+  animation: flash;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  color: #424949;
+}
+
+a{
+  color: #b0b9b9d5;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b0b9b9d5;
+  
+}
+
+
+
+.main-title {
+  font-size: 15rem;
+  padding-top: 20vh;
+}
+
+@keyframes flash{
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.kt-logo-title {
+  width: 30vw;
+  padding-top: 40px;
+
+  margin: 0 auto;
+
+  animation: fadeInPic;
+  animation-duration: 10s;
+ 
+}
+
+.kt-logo-small {
+  width: 8rem;
+}
+
+.intro-text {
+  position: absolute;
+  width: 40vw;
+  left: 30vw;
+  top: 25%;
+  line-height:35px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.btn {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  background-color: #424949;
+}
+
+.navbar-brand {
+  color:black;
+}
+
+.text-fadeIn-one {
+  animation: fadeIn;
+  animation-duration: 12s;
+}
+
+
+
+@keyframes fadeIn{
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes fadeInPic{
+  0% {
+    opacity: 0;
+  }
+  20%{
+    opacity:0;
+  }
+  100% {
+opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0%{
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+
+/*old*/
+
 
 .htmlJs{
   display: block;
@@ -15,10 +220,7 @@ html,body
 }
 
 
-.navbar-brand {
-  width: 75%;
-  padding: 20px 0 10px 50px;
-}
+
 
 h2 {
   color: white;
@@ -28,24 +230,13 @@ h2 {
   width: 75%;
 }
 
-.navbar-dark {
-  font-size: 1.1em;
-  padding: 20px 50px 10px 50px;
-}
+
 
 .icon {
-  padding: 0 10px 0 10px
+  padding: 0 10px 0 10px;
+  COLOR: WHITE;
 }
 
-.ktAnim {
-  animation-name: ktAnimation;
-  animation-duration: 2s;
-}
-
-.linksAnim {
-  animation-name: linksAnimation;
-  animation-duration: 3s;
-}
 
 
 
@@ -55,6 +246,11 @@ h2 {
 
   animation-name: ktLogo;
   animation-duration: 2s;
+
+}
+
+#kt-logo:hover {
+  transform: scale(1.1)
 }
 
 #carouselExampleCaptions {
@@ -72,13 +268,10 @@ h2 {
   display: inline-block;
 }
 
-.carousel-item {
-  text-align: center;
-}
 
 footer {
   text-align: center;
-  background-color: #6498FF;
+  background-color: #616a7e;
   color: white;
   padding: 30px 0;
 }
@@ -91,49 +284,7 @@ footer {
 .mainSection {
   color: black;
   padding: 100px 15% 150px 15%;
-  background-color: #D4E2FF;
+  background-color: rgb(191, 202, 224);
 }
 
-@keyframes ktAnimation {
 
-  0%{
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-
-  80% {
-    transform: translateX(5px);
-  }
-
-  100% {
-    transform: translate(0);
-    opacity: 1;
-  }
-}
-
-@keyframes linksAnimation {
-
-  0%{
-    transform: translateX(200px);
-    opacity: 0;
-  }
-
-  80% {
-    transform: translateX(-10px);
-  }
-
-  100% {
-    transform: translate(0);
-    opacity: 1;
-  }
-}
-
-@keyframes ktLogo {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
