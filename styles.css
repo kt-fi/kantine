@@ -148,6 +148,10 @@ a:hover {
  
 }
 
+.projects-container {
+  z-index: -1;
+}
+
 @media only screen and (max-width: 700px) {
   .kt-logo-small {
     width: 50%;
