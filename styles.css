@@ -148,6 +148,11 @@ a:hover {
  
 }
 
+.modal {
+  color: rgb(68, 68, 68);
+  text-align: left;
+}
+
 .projects-container {
   z-index: -1;
 }
