@@ -148,6 +148,19 @@ a:hover {
  
 }
 
+@media only screen and (max-width: 700px) {
+  .kt-logo-small {
+    width: 50%;
+    padding-top: 1px;
+  
+    margin: 0 auto;
+  
+   
+   
+  
+  }
+}
+
 .kt-logo-small {
   width: 8rem;
 }
