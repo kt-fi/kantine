@@ -98,6 +98,14 @@ a:hover {
   padding-top: 20vh;
 }
 
+@media only screen and (max-width: 710px) {
+
+  .main-title {
+    font-size: 5rem;
+    padding-top: 20vh;
+  }
+}
+
 @keyframes flash{
   0% {
     opacity: 1;
