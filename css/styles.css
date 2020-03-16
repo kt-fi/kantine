@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+.mynavbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(105deg, #0a000c 0%, rgba(10, 0, 12, 0.9) 40%, transparent 100%);
+  font-size: 1.6rem;
+  color: white;
+  transition: 1s; }
+  .mynavbar__container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transition: 1s; }
+  .mynavbar__logo {
+    width: 10rem;
+    margin: 3rem 50% 3rem 3rem;
+    transition: all .6s;
+    filter: invert(100%); }
+  .mynavbar__links {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    list-style-type: none;
+    text-align: right; }
+    .mynavbar__links--1 {
+      display: inline-block;
+      text-align: center;
+      width: 10rem;
+      margin: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 3px transparent;
+      transition: border-bottom .3s; }
+      .mynavbar__links--1:hover {
+        border-bottom: 3px blue solid;
+        font-weight: 400; }
+      .mynavbar__links--1:active {
+        font-weight: 600; }
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif; }
+  a:hover {
+    text-decoration: none;
+    color: white; }
+
+.col-md-6 {
+  position: relative; }
+
+.mainheader {
+  height: 150vh;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%, transparent 100%), url(../img/fondo1.jpg);
+  background-size: cover;
+  text-align: center; }
+  .mainheader__text {
+    font-size: 20rem;
+    padding-top: 15rem;
+    opacity: .8; }
+  .mainheader__p {
+    font-size: 2.5rem;
+    transform: translateY(-3rem);
+    transform: translateX(1.3rem);
+    opacity: .8;
+    letter-spacing: 3.4rem; }
+
+.main {
+  font-size: 3rem; }
+
+.mainlogo {
+  padding-top: 18rem;
+  width: 30%; }
