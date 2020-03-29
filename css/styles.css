@@ -284,3 +284,21 @@ a {
     padding: 23rem 0 0 15rem;
     width: 90%;
     letter-spacing: .53rem; } }
+
+@media only screen and (max-width: 400px) {
+  .filosofia__text {
+    padding: 5rem;
+    font-size: 10rem;
+    width: 100vw; }
+  .filosofiaLogo {
+    width: 100vw; }
+  .kantine__container {
+    width: 90vw;
+    margin: 0 auto; }
+  .kantine__text {
+    width: 100%;
+    margin: 0 0 0 0; }
+  .principles__container {
+    width: 100vw; }
+  .sustainibility__container {
+    width: 100vw; } }
