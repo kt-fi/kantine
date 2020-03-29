@@ -174,7 +174,7 @@ a {
     background-color: rgba(238, 232, 217, 0.801);
     font-size: 16rem;
     padding: 20rem;
-    width: 487.5rem; }
+    width: 80%; }
 
 .kantine {
   background-image: url(https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/03/09/09/habitat-olmo-turquoise-set-of-4-dinner-plates-ps40-www.habitat.co-.uk-lifestyle.jpg?w968);
@@ -183,7 +183,7 @@ a {
   .kantine__container {
     padding-top: 31.5rem;
     width: 487.5rem;
-    margin-left: 115rem; }
+    margin-left: 15%; }
   .kantine__header {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
@@ -209,10 +209,10 @@ a {
   background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(https://previews.123rf.com/images/serg_v/serg_v1505/serg_v150500008/39578346-fresh-fruits-and-vegetables-isolated-on-white-background.jpg);
   background-size: cover; }
   .principles__container {
-    width: 40%;
+    width: 300rem;
     float: right;
     padding-bottom: 55rem;
-    margin-right: 115rem; }
+    margin-right: 10%; }
   .principles__header {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
@@ -234,9 +234,9 @@ a {
   background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(https://ak1.picdn.net/shutterstock/videos/4501541/thumb/1.jpg);
   background-size: cover; }
   .sustainibility__container {
-    width: 40%;
+    width: 300rem;
     float: left;
-    margin-left: 115rem;
+    margin-left: 15%;
     padding-bottom: 50rem; }
   .sustainibility__header {
     font-family: "Oswald", sans-serif;
@@ -253,3 +253,34 @@ a {
     padding: 23rem 0 0 15rem;
     width: 90%;
     letter-spacing: .53rem; }
+
+@media only screen and (max-width: 760px) {
+  .filosofia__text {
+    padding: 10rem;
+    font-size: 13rem;
+    width: 90vw; }
+  .kantine__container {
+    width: 80vw; }
+  .principles__container {
+    width: 80vw;
+    margin-right: 5%; }
+  .sustainibility__container {
+    width: 80vw;
+    float: right;
+    padding-bottom: 55rem;
+    margin-right: 5%; }
+  .sustainibility__header {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18rem;
+    color: #34558b;
+    padding: 50rem 0 0 15rem;
+    letter-spacing: 1rem; }
+  .sustainibility__text {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 15rem;
+    color: #34558b;
+    padding: 23rem 0 0 15rem;
+    width: 90%;
+    letter-spacing: .53rem; } }
