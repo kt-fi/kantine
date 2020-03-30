@@ -286,6 +286,8 @@ a {
     letter-spacing: .53rem; } }
 
 @media only screen and (max-width: 400px) {
+  .filosofia {
+    width: 95px; }
   .filosofia__text {
     padding: 5rem;
     font-size: 10rem;
