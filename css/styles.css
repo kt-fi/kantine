@@ -35,8 +35,9 @@ a {
 
 .header {
   height: 100vh;
-  background-image: url(https://u.tfstatic.com/restaurant_photos/385/202385/169/612/restaurant-erh-la-salle-principal-c9a3b.jpg);
+  background-image: url(/images/homepageHeaderImg@3x.jpg);
   background-size: cover;
+  background-position: center;
   width: 100%;
   height: 100vh; }
   .header__logo {
@@ -177,8 +178,9 @@ a {
     width: 80%; }
 
 .kantine {
-  background-image: url(https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/03/09/09/habitat-olmo-turquoise-set-of-4-dinner-plates-ps40-www.habitat.co-.uk-lifestyle.jpg?w968);
+  background-image: url(/images/kantineBanner@3xa.png);
   background-size: cover;
+  background-position: center;
   height: 332rem; }
   .kantine__container {
     padding-top: 31.5rem;
@@ -206,8 +208,9 @@ a {
 
 .principles {
   overflow: auto;
-  background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(https://previews.123rf.com/images/serg_v/serg_v1505/serg_v150500008/39578346-fresh-fruits-and-vegetables-isolated-on-white-background.jpg);
-  background-size: cover; }
+  background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(/images/vege.jfif);
+  background-size: cover;
+  background-position: left; }
   .principles__container {
     width: 300rem;
     float: right;
@@ -231,8 +234,9 @@ a {
 
 .sustainibility {
   overflow: auto;
-  background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(https://ak1.picdn.net/shutterstock/videos/4501541/thumb/1.jpg);
-  background-size: cover; }
+  background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(/images/sostenibilidad_banner@3xa.jpg);
+  background-size: cover;
+  background-position: right; }
   .sustainibility__container {
     width: 300rem;
     float: left;
