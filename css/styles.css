@@ -208,7 +208,7 @@ a {
 
 .principles {
   overflow: auto;
-  background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(images/vege.jfif);
+  background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(../images/vege.jfif);
   background-size: cover;
   background-position: left; }
   .principles__container {
@@ -234,7 +234,7 @@ a {
 
 .sustainibility {
   overflow: auto;
-  background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(/images/sostenibilidad_banner@3xa.jpg);
+  background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(../images/sostenibilidad_banner@3xa.jpg);
   background-size: cover;
   background-position: right; }
   .sustainibility__container {
