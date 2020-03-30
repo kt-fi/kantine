@@ -178,7 +178,7 @@ a {
     width: 80%; }
 
 .kantine {
-  background-image: url(images/kantineBanner@3xa.png);
+  background-image: url(../images/kantineBanner@3xa.png);
   background-size: cover;
   background-position: center;
   height: 332rem; }
