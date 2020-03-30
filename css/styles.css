@@ -8,13 +8,11 @@
 html {
   font-size: 1.42pt;
   padding: 0;
-  margin: 0;
- }
+  margin: 0; }
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }
@@ -291,7 +289,8 @@ a {
   .filosofia__text {
     padding: 5rem;
     font-size: 10rem;
-    width: 100vw; }
+    width: 100vw;
+    margin-top: -5rem; }
   .filosofiaLogo {
     width: 90%; }
   .kantine__container {
