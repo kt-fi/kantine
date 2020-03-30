@@ -285,16 +285,13 @@ a {
     width: 90%;
     letter-spacing: .53rem; } }
 
-@media only screen and (max-width: 400px) {
-  .filosofia {
-    width: 95px; }
+@media only screen and (max-width: 450px) {
   .filosofia__text {
     padding: 5rem;
     font-size: 10rem;
-    width: 100vw;
-    margin-top: -5rem; }
+    width: 100vw; }
   .filosofiaLogo {
-    width: 90%; }
+    width: 90vw; }
   .kantine__container {
     width: 90vw;
     margin: 0 auto; }
