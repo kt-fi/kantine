@@ -288,7 +288,7 @@ a {
 @media only screen and (max-width: 450px) {
   .filosofia__text {
     padding: 5rem;
-    font-size: 10rem;
+    font-size: 15rem;
     width: 100vw; }
   .filosofiaLogo {
     width: 90vw; }
