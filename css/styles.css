@@ -9,11 +9,12 @@ html {
   font-size: 1.42pt;
   padding: 0;
   margin: 0;
-  overflow: hidden; }
+ }
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+overflow: hidden;}
 
 a {
   text-decoration: none; }
