@@ -35,7 +35,7 @@ a {
 
 .header {
   height: 100vh;
-  background-image: url(/images/homepageHeaderImg@3x.jpg);
+  background-image: url(images/homepageHeaderImg@3x.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
