@@ -30,12 +30,30 @@ a {
     text-decoration: underline;
     color: white; }
 
+@font-face {
+  font-family: 'roboto_mono_thin_for_powerlTh';
+  src: url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff2") format("woff2"), url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuethin';
+  src: url("../css/fonts/helveticaneue_thin-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuelight';
+  src: url("../css/fonts/helveticaneue_light-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .filosofiaLogo {
   z-index: -1; }
 
 .header {
   height: 100vh;
-  background-image: url(../images/homepageHeaderImg@3x.jpg);
+  background-image: url(/images/homepageHeaderImg@3x.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -130,8 +148,8 @@ a {
     color: white;
     font-size: 8rem;
     font-weight: 100;
-    font-family: "Oswald", sans-serif;
-    letter-spacing: 0.15rem; }
+    font-family: "helveticaneuelight";
+    letter-spacing: 0.20rem; }
 
 .mapbox {
   width: 179.5rem;
@@ -144,13 +162,13 @@ a {
   padding-left: 50rem; }
 
 .horario {
-  font-family: "Oswald", sans-serif;
+  font-family: 'helveticaneuethin';
   font-size: 12rem;
   font-weight: 200;
   color: white;
   margin-bottom: 10.5rem; }
   .horario__text {
-    font-family: "Oswald", sans-serif;
+    font-family: "helveticaneuelight";
     font-size: 8rem;
     font-weight: 200;
     color: white;
@@ -174,7 +192,7 @@ a {
     position: absolute;
     top: 27%; }
   .filosofia__text {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'roboto_mono_thin_for_powerlTh';
     font-weight: 100;
     color: #34558b;
     margin: 0 auto;
@@ -204,7 +222,7 @@ a {
     width: 50rem;
     letter-spacing: 1rem; }
   .kantine__text {
-    font-family: "Oswald", sans-serif;
+    font-family: "helveticaneuelight";
     font-weight: 200;
     font-size: 15rem;
     color: #34558b;
@@ -231,7 +249,7 @@ a {
     padding: 50rem 0 0 15rem;
     letter-spacing: 1rem; }
   .principles__text {
-    font-family: "Oswald", sans-serif;
+    font-family: "helveticaneuelight";
     font-weight: 200;
     font-size: 15rem;
     color: #34558b;
@@ -257,7 +275,7 @@ a {
     padding: 50rem 0 0 15rem;
     letter-spacing: 1rem; }
   .sustainibility__text {
-    font-family: "Oswald", sans-serif;
+    font-family: "helveticaneuelight";
     font-weight: 200;
     font-size: 15rem;
     color: #34558b;
@@ -288,7 +306,7 @@ a {
     padding: 50rem 0 0 15rem;
     letter-spacing: 1rem; }
   .sustainibility__text {
-    font-family: "Oswald", sans-serif;
+    font-family: "helveticaneuelight";
     font-weight: 200;
     font-size: 15rem;
     color: #34558b;

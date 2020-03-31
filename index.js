@@ -9,10 +9,10 @@ $(document).ready(function(){
 
    if (scrollTop > stickyNavTop){
         $(".navbarK").addClass("sticky");
-        $(".filosofia").css("transform", "translateY(40rem)")
+        $(".main").css("transform", "translateY(40rem)")
     }else{
         $(".navbarK").removeClass("sticky");
-        $(".filosofia").css("transform", "translateY(0rem)")
+        $(".main").css("transform", "translateY(0rem)")
     }
 } 
 
