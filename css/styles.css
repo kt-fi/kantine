@@ -98,7 +98,8 @@ a {
       display: inline-block;
       padding: 11rem 3px 5px 0;
       margin: 0 4%;
-      border-bottom: 4px transparent solid; }
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
       .navbarK__links--link:hover {
         border-bottom: 2rem white solid; }
 
