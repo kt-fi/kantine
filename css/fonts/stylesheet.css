@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'roboto_mono_thin_for_powerlTh';
-    src: url('roboto_mono_thin_for_powerline-webfont.woff2') format('woff2'),
-         url('roboto_mono_thin_for_powerline-webfont.woff') format('woff');
+    src: url('https://kt-fi.github.io/kantine/css/fonts/roboto_mono_thin_for_powerline-webfont.woff2') format('woff2'),
+         url('https://kt-fi.github.io/kantine/css/fonts/roboto_mono_thin_for_powerline-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'helveticaneuethin';
-    src: url('helveticaneue_thin-webfont.woff2') format('woff2'),
-         url('helveticaneue_thin-webfont.woff') format('woff');
+    src: url('https://kt-fi.github.io/kantine/css/fonts/helveticaneue_thin-webfont.woff2') format('woff2'),
+         url('https://kt-fi.github.io/kantine/css/fonts/helveticaneue_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'helveticaneuelight';
-    src: url('helveticaneue_light-webfont.woff2') format('woff2'),
-         url('helveticaneue_light-webfont.woff') format('woff');
+    src: url('https://kt-fi.github.io/kantine/css/fonts/helveticaneue_light-webfont.woff2') format('woff2'),
+         url('https://kt-fi.github.io/kantine/css/fonts/helveticaneue_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

@@ -35,7 +35,7 @@ a {
 
 .header {
   height: 100vh;
-  background-image: url(images/homepageHeaderImg@3x.jpg);
+  background-image: url(/images/homepageHeaderImg@3x.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -67,7 +67,9 @@ a {
 .navbarK {
   background-color: #34558b;
   text-align: center;
-  height: 40rem; }
+  height: 40rem;
+  position: -webkit-sticky;
+  z-index: 2; }
   .navbarK__links {
     font-size: 12rem;
     color: white;
@@ -81,6 +83,11 @@ a {
       border-bottom: 4px transparent solid; }
       .navbarK__links--link:hover {
         border-bottom: 2rem white solid; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .footer {
   height: 268rem;
@@ -236,7 +243,7 @@ a {
   overflow: auto;
   background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(../images/sostenibilidad_banner@3xa.jpg);
   background-size: cover;
-  background-position: right; }
+  background-position: center; }
   .sustainibility__container {
     width: 300rem;
     float: left;
