@@ -9,14 +9,18 @@ $(document).ready(function(){
 
    if (scrollTop > stickyNavTop){
         $(".navbarK").addClass("sticky");
+        $(".filosofia").css("transform", "translateY(40rem)")
     }else{
         $(".navbarK").removeClass("sticky");
+        $(".filosofia").css("transform", "translateY(0rem)")
     }
 } 
 
 stickyNav();
 $(window).scroll(function(){
     stickyNav();
+
+    
 })
 } )
 
