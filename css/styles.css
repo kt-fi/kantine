@@ -116,7 +116,7 @@ a {
     border-radius: 4rem;
     width: 94rem;
     height: 82rem;
-    margin: 27.5rem 0  0 103rem; }
+    margin: 27.5rem 0  0 43%; }
     .footer .footer__logo__text {
       font-size: 24rem;
       font-family: 'Oswald', sans-serif;
@@ -134,7 +134,7 @@ a {
       margin: 0 auto; }
 
 .direccion {
-  margin: 31.5rem 0 0 86rem;
+  margin: 31.5rem 0 0 35%;
   width: 96rem; }
   .direccion__icon {
     width: 20rem;
@@ -152,28 +152,34 @@ a {
     font-family: "helveticaneuelight";
     letter-spacing: 0.20rem; }
 
+.map {
+  background-color: #34558b;
+  text-align: center; }
+
 .mapbox {
   width: 179.5rem;
   height: 179.5rem;
-  margin-top: 44.5rem;
-  margin-left: 44.5rem; }
+  margin-top: 44.5rem; }
 
 .social {
-  margin-top: 57.5rem;
-  padding-left: 50rem; }
+  padding-left: 7%;
+  background-color: #34558b; }
 
 .horario {
   font-family: 'helveticaneuethin';
   font-size: 12rem;
   font-weight: 200;
   color: white;
-  margin-bottom: 10.5rem; }
+  margin-bottom: 10.5rem;
+  margin-top: 57.5rem; }
   .horario__text {
     font-family: "helveticaneuelight";
     font-size: 8rem;
     font-weight: 200;
     color: white;
     margin-bottom: 15rem; }
+  .horario__align--right {
+    text-align: right; }
 
 .insta_icon {
   font-size: 20rem;
@@ -182,6 +188,18 @@ a {
 
 .dirTable {
   width: 150rem; }
+
+@media only screen and (max-width: 760px) {
+  .footer__logo {
+    margin-left: 34%; }
+  .direccion {
+    margin-left: 26%; }
+  .horario {
+    text-align: center; }
+    .horario__text {
+      text-align: center; }
+    .horario__table {
+      text-align: center; } }
 
 .filosofia {
   position: relative;
