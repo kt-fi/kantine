@@ -195,7 +195,7 @@ a {
 @media only screen and (max-width: 760px) {
   .footer__logo {
     transform: translateX(-30rem); }
-  .direccion {
+  .dirTable {
     transform: translateX(-30rem); }
   .horario {
     text-align: center; }
