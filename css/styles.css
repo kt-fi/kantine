@@ -194,9 +194,9 @@ a {
 
 @media only screen and (max-width: 760px) {
   .footer__logo {
-    margin-left: 34%; }
+    transform: translateX(-30rem); }
   .direccion {
-    margin-left: 26%; }
+    transform: translateX(-30rem); }
   .horario {
     text-align: center; }
     .horario__text {
