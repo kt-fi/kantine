@@ -11,7 +11,7 @@
 
 // STICKY NAVBAR
 
-alert("penis")
+alert("works")
 
 $(document).ready(function(){
 
