@@ -11,7 +11,7 @@
 
 // STICKY NAVBAR
 
-alert("updated")
+
 
 $(document).ready(function(){
 
