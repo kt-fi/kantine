@@ -215,9 +215,9 @@
 <script src="index.js"></script>
 
 <script>
-$.mobile.orientationChangeEnabled = true;
+// $.mobile.orientationChangeEnabled = true;
 $( window ).on( "orientationchange", function( event ) {
-    $( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
+   alert( "This device is in " + event.orientation + " mode!" );
   });</script>
 
 </body>
