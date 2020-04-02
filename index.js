@@ -13,6 +13,8 @@ $( window ).on( "orientationchange", function( event ) {
 
 // STICKY NAVBAR
 
+alert("hello")
+
 $(document).ready(function(){
 
     var stickyNavTop = $(".navbarK").offset().top;
