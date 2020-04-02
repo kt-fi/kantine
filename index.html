@@ -223,7 +223,7 @@
 
 $( window ).on( "orientationchange", function( event ) {
   
-alert("i need a beer")
+
 
 
 $(document).ready(function(){
@@ -236,11 +236,13 @@ var scrollTop = $(window).scrollTop();
 if (scrollTop > stickyNavTop){
     $(".navbarK").addClass("sticky");
     // $(".main").css("transform", "translateY(40rem)")
+    window.scrollTo(0,0);
     Location.reload()
    
 }else{
     $(".navbarK").removeClass("sticky");
     // $(".main").css("transform", "translateY(0rem)")
+    window.scrollTo(0,0);
     Location.reload()
    
 }

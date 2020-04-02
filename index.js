@@ -11,7 +11,10 @@
 
 // STICKY NAVBAR
 
-alert("ye")
+
+
+
+
 
 
 $(document).ready(function(){
