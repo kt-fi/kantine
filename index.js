@@ -7,7 +7,7 @@ $(document).ready(function(){
     var stickyNavTop = $(".navbarK").offset().top;
 
     var stickyNav = function(){
-    var scrollTop = $(document).scrollTop()
+    var scrollTop = $(window).scrollTop()
 
    if (scrollTop > stickyNavTop){
         $(".navbarK").addClass("sticky");
