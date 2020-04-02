@@ -90,7 +90,8 @@ a {
   text-align: center;
   height: 40rem;
   position: -webkit-sticky;
-  z-index: 2; }
+  z-index: 2;
+  overflow: hidden; }
   .navbarK__links {
     font-size: 12rem;
     color: white;
@@ -113,7 +114,8 @@ a {
 
 .footer {
   height: 268rem;
-  background-color: #34558b; }
+  background-color: #34558b;
+  overflow: hidden; }
   .footer .footer__logo {
     border: 2px rgba(255, 255, 255, 0.74) solid;
     border-radius: 4rem;
@@ -160,7 +162,7 @@ a {
   text-align: center; }
 
 .mapbox {
-  width: 80%;
+  width: 179.5rem;
   height: 179.5rem;
   margin-top: 44.5rem; }
 
@@ -208,7 +210,8 @@ a {
   position: relative;
   margin-top: 14rem;
   text-align: center;
-  margin-bottom: 34rem; }
+  margin-bottom: 34rem;
+  overflow: hidden; }
   .filosofia__container {
     width: 100%;
     position: absolute;
@@ -228,7 +231,8 @@ a {
   background-image: url(../images/kantineBanner@3xa.png);
   background-size: cover;
   background-position: center;
-  height: 332rem; }
+  height: 332rem;
+  overflow: hidden; }
   .kantine__container {
     padding-top: 31.5rem;
     width: 487.5rem;
@@ -257,7 +261,8 @@ a {
   overflow: auto;
   background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(../images/vege.jfif);
   background-size: cover;
-  background-position: left; }
+  background-position: left;
+  overflow: hidden; }
   .principles__container {
     width: 300rem;
     float: right;
@@ -283,7 +288,8 @@ a {
   overflow: auto;
   background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(../images/sostenibilidad_banner@3xa.jpg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  overflow: hidden; }
   .sustainibility__container {
     width: 300rem;
     float: left;
