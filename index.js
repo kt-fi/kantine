@@ -7,7 +7,7 @@ $(document).ready(function(){
     var stickyNavTop = $(".navbarK").offset().top;
 
     var stickyNav = function(){
-    var scrollTop = $(window).scrollTop()
+    var scrollTop = $(document).scrollTop()
 
    if (scrollTop > stickyNavTop){
         $(".navbarK").addClass("sticky");
@@ -25,6 +25,3 @@ $(window).scroll(function(){
     
 })
 } )
-jQuery(document).ready(function($){
-    orientationChange();
-});
