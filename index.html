@@ -209,12 +209,14 @@
 </main>
 
 <!--JQUERY & MOBILE-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!--MY JS-->
 <script src="index.js"></script>
 
-<script>$( window ).on( "orientationchange", function( event ) {
+<script>
+$.mobile.orientationChangeEnabled = true;
+$( window ).on( "orientationchange", function( event ) {
     $( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
   });</script>
 
