@@ -11,7 +11,7 @@
 
 // STICKY NAVBAR
 
-alert("keep trying")
+
 
 // $(document).ready(function(){
 
