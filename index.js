@@ -1,11 +1,14 @@
 
-$(window).on("orientationchange",function(){
-
-    alert("ROTATED")
-    //you can get the screen size
+// $(window).on("orientationchange",function(){
+//     //you can get the screen size
 //     var windowWidth = $(window).width(),
 //     var windowHeight = $(window).height();
 //     //some code
+//   });
+
+
+$( window ).on( "orientationchange", function( event ) {
+    $( "#orientation" ).text( "This device is in " + event.orientation + " mode!" );
   });
 
 // STICKY NAVBAR
