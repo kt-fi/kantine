@@ -226,21 +226,10 @@ $(document).ready(function(){
     headerHeightNew = screen.height;
     $('.header').css('height', headerHeightNew)
 
-
 var stickyNavTop = $(".navbarK").offset().top;
 
 var stickyNav = function(){
 var scrollTop = $(window).scrollTop();
-
-if (scrollTop > stickyNavTop){
-   
-    window.scrollTo(0,0);
-    Location.reload()
-}else{
-
-    window.scrollTo(0,0);
-    Location.reload()           
-    }
 } 
 
 stickyNav();

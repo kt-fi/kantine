@@ -1,6 +1,6 @@
 
 // STICKY NAVBAR
-
+alert("Navbar should work with no bugs finally")
 
 $(document).ready(function(){
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
     var scrollTop = $(window).scrollTop()
      
 
-   
+    
       var headerHeight = screen.height;
     $('.header').css('height', headerHeight)
 
@@ -22,7 +22,7 @@ $(document).ready(function(){
         $(".main").css("transform", "translateY(40rem)")
        $('.header').css('height', headerHeight)
 
-        // alert()
+       
        
     }else{
         $(".navbarK").removeClass("sticky");
