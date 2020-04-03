@@ -105,6 +105,7 @@
  <footer class="footer overflow">
 
 <div class="row">
+   
     <div class="contact col-md-5 sm-col-12">
         <div class="footer__logo">
             <div class="footer__logo__text">KANTINE</div>
@@ -203,7 +204,6 @@
 </div>
 
 
-
  </footer>
 
 </main>
@@ -214,38 +214,33 @@
 <!--MY JS-->
 <script src="index.js"></script>
 
+
+
+
+<!-- NAVBAR POSITION MOBILE -->
+
 <script>
-// $.mobile.orientationChangeEnabled = true;
-
-
-
-
-
 $( window ).on( "orientationchange", function( event ) {
-  
-
-
-
 $(document).ready(function(){
    
+    headerHeightNew = screen.height;
+    $('.header').css('height', headerHeightNew)
+
+
 var stickyNavTop = $(".navbarK").offset().top;
 
 var stickyNav = function(){
 var scrollTop = $(window).scrollTop();
 
 if (scrollTop > stickyNavTop){
-    $(".navbarK").addClass("sticky");
-    // $(".main").css("transform", "translateY(40rem)")
+   
     window.scrollTo(0,0);
     Location.reload()
-   
 }else{
-    $(".navbarK").removeClass("sticky");
-    // $(".main").css("transform", "translateY(0rem)")
+
     window.scrollTo(0,0);
-    Location.reload()
-   
-}
+    Location.reload()           
+    }
 } 
 
 stickyNav();
@@ -253,10 +248,9 @@ $(window).scroll(function(){
 stickyNav();
 
 
-})
-} )
-
-  });</script>
+         })
+    })
+});</script>
 
 </body>
 </html>
