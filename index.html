@@ -40,12 +40,29 @@
 
 <nav class="navbarK overflow" id="navbarK">  
         <ul class="navbarK__links">
+            <li class="navbarK__links--brand"><a href="#" class="navLinks">KANTINE</i></li></a>
+        <li class="navbarK__links--hamburger"><button class="navLinksToggle"><i class="fas fa-bars"></i></li></button>
         <li class="navbarK__links--link"> <a href="#" class="navLinks"> Kantine</li></a>
         <li class="navbarK__links--link"><a href="#" class="navLinks">comida</li></a>
         <li class="navbarK__links--link"><a href="#" class="navLinks">catering</li></a>
         <li class="navbarK__links--link"><a href="#" class="navLinks">placeholder</li></a>
         <li class="navbarK__links--link"><a href="#" class="navLinks">contact</li></a>
     </ul>
+</nav>
+
+<!-- NAV DROPDOWN -->
+
+<nav class="navbarKDrop overflow" id="navbarKDrop">  
+   
+    <ul class="navbarK__links">
+        
+    <li class="navbarK__links--linkDrop"> <a href="#" class="navLinks"> Kantine</li></a>
+    <li class="navbarK__links--linkDrop"><a href="#" class="navLinks">comida</li></a>
+    <li class="navbarK__links--linkDrop"><a href="#" class="navLinks">catering</li></a>
+    <li class="navbarK__links--linkDrop"><a href="#" class="navLinks">placeholder</li></a>
+    <li class="navbarK__links--linkDrop"><a href="#" class="navLinks">contact</li></a>
+</ul>
+
 </nav>
 
 <!-- MAIN -->
@@ -217,26 +234,21 @@
 
 
 
-<!-- NAVBAR POSITION MOBILE -->
+<!-- NAVBAR POSITION MOBILE ROTATION -->
 
 <script>
 $( window ).on( "orientationchange", function( event ) {
-$(document).ready(function(){
-   
-    headerHeightNew = screen.height;
-    $('.header').css('height', headerHeightNew)
+    $(document).ready(function(){
 
-var stickyNavTop = $(".navbarK").offset().top;
-
-var stickyNav = function(){
-var scrollTop = $(window).scrollTop();
-} 
-
-stickyNav();
-$(window).scroll(function(){
-stickyNav();
-
-
+        headerHeightNew = screen.height;
+        $('.header').css('height', headerHeightNew)
+        var stickyNavTop = $(".navbarK").offset().top;
+        var stickyNav = function(){
+        var scrollTop = $(window).scrollTop();
+    } 
+    stickyNav();
+    $(window).scroll(function(){
+        stickyNav();
          })
     })
 });</script>
