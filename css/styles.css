@@ -110,6 +110,55 @@ a {
   top: 0;
   width: 100%; }
 
+.navbarK__links--hamburger {
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%; }
+
+.navbarK__links--brand {
+  display: inline-block;
+  width: 80%;
+  padding-top: 20px;
+  text-align: left; }
+
+.navLinkMobile {
+  background-color: #34558b;
+  text-align: center;
+  height: 40rem;
+  position: -webkit-sticky;
+  z-index: 2;
+  overflow: hidden; }
+
+.navbarKDrop {
+  background-color: #34558b;
+  text-align: center;
+  height: 140rem;
+  position: -webkit-sticky;
+  z-index: 1;
+  margin-top: -40rem;
+  overflow: hidden;
+  font-size: 12rem; }
+  .navbarKDrop__linksDrop {
+    font-size: 12rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase; }
+    .navbarKDrop__linksDrop--linkDrop {
+      display: inline-block;
+      font-size: 12rem;
+      padding: 40rem 3px 5px 0;
+      margin: 0 4%;
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
+      .navbarKDrop__linksDrop--linkDrop:hover {
+        border-bottom: 2rem white solid; }
+
+.navLinksToggle {
+  background-color: #34558b;
+  color: white;
+  border: 0; }
+
 .footer {
   height: 100%;
   background-color: #34558b; }
