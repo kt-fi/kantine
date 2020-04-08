@@ -1,6 +1,5 @@
  
 
- 
  //NAVBAR MOBILE
 var width = $(document).width();
 
@@ -52,12 +51,7 @@ $(window).on("resize", function(){
 
 
 $(".navLinksToggle").click(function(){
-
-    
         $(".navbarKDrop").slideToggle();
-
-    
-    
 })
 
 
@@ -71,7 +65,7 @@ $(document).ready(function(){
 
     var stickyNav = function(){
     var scrollTop = $(window).scrollTop()
-    var headerHeight = screen.height;
+    var headerHeight = $(window).height();
 
     $('.header').css('height', headerHeight)
 
@@ -79,14 +73,15 @@ $(document).ready(function(){
         $(".navbarK").addClass("sticky");
         $(".navbarKDrop").addClass("sticky");
         $('.header').css('height', headerHeight)
-    $(".navbarK__links--linkDrop").css("transform", "translateY(40rem)")
-       
+        $(".navbarK__links--linkDrop").css("transform", "translateY(40rem)")
+  
+
     }else{
         $(".navbarK").removeClass("sticky");
         $(".navbarKDrop").removeClass("sticky");
         $('.header').css('height', headerHeight)
-        $(".navbarK").css("margin-top", "-40rem")
-        
+        // $(".navbarK").css("margin-top", "-40rem")
+       
     }
 } 
 

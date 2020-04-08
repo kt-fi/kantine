@@ -24,7 +24,7 @@
 <body>
 
 
-<!-- Header -->
+<!-- HEADER -->
 
  <header class="header overflow">
      <div class="header__logo">
@@ -32,21 +32,34 @@
         <div class="logo__text">KANTINE</div>
         <p class="logo__text--small"> SOUL FOOD</p>
     </div>
-    </div>
+
+<!-- SCROLLDOWN -->
+
+<!-- <div class="scrollDown"> <a href="#navbarK"> V</a></div> -->
+
 </header>  
+
+
+
+
 
 
 <!-- NAVBAR -->
 
 <nav class="navbarK overflow" id="navbarK">  
         <ul class="navbarK__links">
-            <li class="navbarK__links--brand"><a href="#" class="navLinks">KANTINE</i></li></a>
-        <li class="navbarK__links--hamburger"><button class="navLinksToggle"><i class="fas fa-bars"></i></li></button>
-        <li class="navbarK__links--link"> <a href="#" class="navLinks"> Kantine</li></a>
-        <li class="navbarK__links--link"><a href="#" class="navLinks">comida</li></a>
-        <li class="navbarK__links--link"><a href="#" class="navLinks">catering</li></a>
-        <li class="navbarK__links--link"><a href="#" class="navLinks">placeholder</li></a>
-        <li class="navbarK__links--link"><a href="#" class="navLinks">contact</li></a>
+            <li class="navbarK__links--brand"><a href="#" class="navLinks"> KANTINE</i></li></a>
+
+<!-- NAV ANIMATION TESTING -->
+
+
+
+       <li class="navbarK__links--hamburger"><button class="navLinksToggle"><i class="fas fa-bars"></i></li></button>
+        <li class="navbarK__links--link"> <a href="#" class="navLinks"><div class="navbarK__under--current">  Kantine</div></li></a>
+        <li class="navbarK__links--link"><a href="#" class="navLinks"><div class="navbarK__under">comida</div></li></a>
+        <li class="navbarK__links--link"><a href="#" class="navLinks"><div class="navbarK__under">catering</div></li></a>
+        <li class="navbarK__links--link"><a href="#" class="navLinks"><div class="navbarK__under">placeholder</div></li></a>
+        <li class="navbarK__links--link"><a href="#" class="navLinks"><div class="navbarK__under">contact</div></li></a>
     </ul>
 </nav>
 
@@ -76,7 +89,8 @@
 <div class="filosofia__container">
 <div class="filosofia__text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est voluptatem porro,
-     veniam distinctio facere molestias 
+     veniam distinctio facere molestias Loremm porro,
+     veniam distinctio
   </div>
 </div>
 </section>
@@ -85,7 +99,7 @@
 
 <section class="kantine overflow">
     <div class="kantine__container">
-    <h2 class="kantine__header">Kantine</h2>
+   <h2 class="kantine__header"><div class="kantine__header--blur">   Kantine </div></h2>
     <p class="kantine__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente at dicta deleniti error ad v
         el laudantium officiis, eaque perferendis accusantium recusandae ipsa nesciunt 
         itae sunt sint. Molestiae hic velit voluptatibus!</p>
@@ -116,74 +130,74 @@
  </div>
  </section>
 
-
+</main>
  <!-- FOOTER -->
 
- <footer class="footer overflow">
+ <footer class="footer">
 
-<div class="row">
+  <!-- LOGO -->  
    
-    <div class="contact col-md-5 sm-col-12">
+<div class="logo__position center">
+    <div class="logo__position--middle">
         <div class="footer__logo">
             <div class="footer__logo__text">KANTINE</div>
             <p class="footer__logo__text--small">  SOUL FOOD</p>
         </div>
-
-        <div class="direccion">
-            <div class="direccion_container">
-
-        <table class="dirTable">
-                    <tr>
-                        <td>
-                            <div class="direccion__icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="direccion__text">
-                                C/ St. Engracia 55, <br>
-                                 29584
-                                 <p>Metro Iglesia (Salida Sagunto)</p>
-                                 <p>EMT Parada 1869 (Bus 7/37)</p>
-                            </div>
-                        </td>
-                    </tr>
-           
-                <tr>
-                    <td>
-                        <div class="direccion__icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="direccion__text">
-                           <a href="tel:5551234567" class="footerLink"> +34 999 999 000 </a>
-                        </div>
-                    </td>
-                </tr>
-        
-                <tr>
-                    <td>
-                        <div class="direccion__icon">
-                            <i class="far fa-envelope"></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="direccion__text">
-                            <a href="mailto:kantinemadrid@gmail.com" class="footerLink"> kantinemadrid@gmail.com</a>
-                        </div>
-                    </td>
-                </tr>
-            </table>
         </div>
+</div>
 
+<!-- ADDRESS -->
+<div class="address">
 
-        </div>
+<table class="address_table">
+            <tr>
+                <td>
+                    <div class="address__icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </td>
+                <td>
+                    <div class="address__text">
+                        C/ St. Engracia 55, <br>
+                         29584, Madrid
+                         <p class="address__text--metro">Metro Iglesia (Salida Sagunto)</p>
+                         <p>EMT Parada 1869 (Bus 7/37)</p>
+                    </div>
+                </td>
+            </tr>
+   
+        <tr>
+            <td>
+                <div class="address__icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+            </td>
+            <td>
+                <div class="address__text--phone">
+                   <a href="tel:5551234567" class="footerLink"> +34 999 999 000 </a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="address__icon">
+                    <i class="far fa-envelope"></i>
+                </div>
+            </td>
+            <td>
+                <div class="address__text--email">
+                    <a href="mailto:kantinemadrid@gmail.com" class="footerLink"> kantinemadrid@gmail.com</a>
+                </div>
+            </td>
+        </tr>
+    </table>
 
 </div>
 
+</div>
 
-    <div class="map col-md-3 sm-col-12 overflow">
+    <div class="map overflow">
         <iframe class="mapbox" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8836952106353!2d-3.70054278533702!3d40.43357417936318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228f4adb00cc5%3A0xd359ce69facade50!2sCalle%20de%20Sta%20Engracia%2C%2055%2C%2028010%20Madrid!5e0!3m2!1sen!2ses!4v1585408407367!5m2!1sen!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         
@@ -191,25 +205,28 @@
 
 
 
-    <div class="social col-md-4 sm-col-12 overflow">
+    <div class="social  overflow">
         <div class="horario">Horario:</div>
         <div class="horario__text">
             
-                       <p> L-V:
-                    
-                        07.30 - 18.00h
-                 </p>
-                     <p> S:
-                    
-                        09.00 - 14.00h
-               </p>
-         <div class="direccion_icon"><a href="#" class=footerLink><i class="fab fa-instagram insta_icon"></i></a></div>
 
-         <div class="horario__text">
-            <a href="#" class="footerLink"> <p>Cookies</p></a>
+
+            
+                       <p class="horario__text--span"> L-V:
+                    
+                       <span> 07.30 - 18.00h</span>
+                 </p>
+                     <p class="horario__text--span"> S:
+                    
+                       <span> 09.00 - 14.00h</span>
+               </p>
+         <div class="address__icon--social"><a href="#" class=footerLink><i class="fab fa-instagram insta_icon"></i></a></div>
+
+         <div class="horario__text--1">
+            <a href="#" class="footerLink"> Cookies</a>
          </div>
-         <div class="horario__text">
-            <a href="#" class="footerLink"> <p>Privacidad</p></a> 
+         <div class="horario__text--2">
+            <a href="#" class="footerLink"> Privacidad</a> 
         </div>
         </div>
       
@@ -218,12 +235,12 @@
 
 
 </div>
-</div>
+
 
 
  </footer>
 
-</main>
+
 
 <!--JQUERY & MOBILE-->
 <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
