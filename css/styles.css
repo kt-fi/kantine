@@ -425,7 +425,7 @@ span {
     font-size: 13rem;
     width: 100%; }
   .kantine {
-    height: 232.5rem; }
+    height: 90%; }
     .kantine__container {
       margin: 0 10%; }
     .kantine__header {
@@ -444,7 +444,7 @@ span {
       line-height: 18rem; }
   .principles {
     background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg);
-    height: 242.5rem; }
+    height: 90%; }
     .principles__container {
       margin: 0 10% 0 10%;
       float: none; }
@@ -464,7 +464,7 @@ span {
       padding-top: 28rem; }
   .sustainibility {
     background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
-    height: 285.5rem; }
+    height: 90%; }
     .sustainibility__container {
       margin: 0 10%;
       float: none;
@@ -491,12 +491,6 @@ span {
     width: 100vw; }
   .filosofiaLogo {
     width: 90vw; }
-  .kantine__container {
-    width: 90vw;
-    margin: 0 auto; }
-  .kantine__text {
-    width: 100%;
-    margin: 0 0 0 0; }
   .principles__container {
     width: 100vw; }
   .sustainibility__container {
