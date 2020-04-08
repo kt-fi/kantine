@@ -1,0 +1,579 @@
+.nav__logo {
+  border: 1.4px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 31.4rem;
+  height: 27.4rem;
+  transform: translateY(-5rem); }
+  .nav__logo__text {
+    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(80%); }
+  .nav__logo__text--small {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: translateY(360%);
+    background-color: #34558b;
+    width: 70%;
+    margin: 0 auto; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 1.42pt;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth; }
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
+.overflow {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.navLinks {
+  color: white; }
+  .navLinks:hover {
+    color: white; }
+
+.footerLink {
+  color: white; }
+  .footerLink:hover {
+    text-decoration: underline;
+    color: white; }
+
+@font-face {
+  font-family: 'roboto_mono_thin_for_powerlTh';
+  src: url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff2") format("woff2"), url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuethin';
+  src: url("../css/fonts/helveticaneue_thin-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuelight';
+  src: url("../css/fonts/helveticaneue_light-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.filosofiaLogo {
+  z-index: -1; }
+
+.scrollDown {
+  font-size: 40rem;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  transform: translateY(150rem); }
+
+.header {
+  background-image: url(../images/homepageHeaderImg@3x.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%; }
+  .header__logo {
+    padding: 16rem 16rem; }
+
+.logo {
+  border: 2px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 94rem;
+  height: 82rem; }
+  .logo__text {
+    font-size: 24rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(60%); }
+  .logo__text--small {
+    font-size: 9rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: translateY(285%);
+    background-color: rgba(37, 37, 37, 0.973);
+    width: 70%;
+    margin: 0 auto; }
+
+.navbarK {
+  background-color: #34558b;
+  text-align: center;
+  height: 40rem;
+  position: -webkit-sticky;
+  z-index: 2;
+  overflow: hidden; }
+  .navbarK__under {
+    width: 0%;
+    border-bottom: 4px white solid;
+    transition: all 0.1s; }
+    .navbarK__under:hover {
+      width: 70%; }
+    .navbarK__under--current {
+      width: 70%;
+      border-bottom: 4px white solid;
+      transition: all 0.5s; }
+  .navbarK__links {
+    font-size: 12rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.9rem; }
+    .navbarK__links--link {
+      display: inline-block;
+      padding: 11rem 3px 5px 0;
+      margin: 0 3%;
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
+.navbarK__links--hamburger {
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%; }
+
+.navbarK__links--brand {
+  display: inline-block;
+  width: 80%;
+  padding-top: 20px;
+  text-align: left; }
+
+@media only screen and (max-width: 770px) {
+  .navbarK__links {
+    font-size: 10.5rem; } }
+
+.navbarKDrop {
+  background-color: #34558b;
+  text-align: center;
+  height: 140rem;
+  position: -webkit-sticky;
+  z-index: 1;
+  margin-top: -40rem;
+  overflow: hidden;
+  font-size: 12rem; }
+  .navbarKDrop__linksDrop {
+    font-size: 12rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase; }
+    .navbarKDrop__linksDrop--linkDrop {
+      display: inline-block;
+      font-size: 12rem;
+      padding: 40rem 3px 5px 0;
+      margin: 0 4%;
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
+      .navbarKDrop__linksDrop--linkDrop:hover {
+        border-bottom: 2rem white solid; }
+
+.navLinksToggle {
+  background-color: #34558b;
+  color: white;
+  border: 0; }
+
+.footer {
+  background-color: #34558b;
+  position: relative;
+  height: 461rem; }
+
+.logo__position {
+  width: 50%;
+  position: absolute;
+  top: 24rem;
+  left: 25%; }
+
+.footer__logo {
+  border: 2px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 94rem;
+  height: 82rem;
+  margin: 0 auto;
+  top: 24rem; }
+  .footer__logo__text {
+    font-size: 24rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(60%); }
+  .footer__logo__text--small {
+    font-size: 9rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: translateY(285%);
+    background-color: #34558b;
+    width: 70%;
+    margin: 0 auto; }
+
+.address {
+  position: absolute;
+  font-family: "helveticaneuelight";
+  font-size: 8rem;
+  letter-spacing: .15rem;
+  color: white;
+  width: 40%;
+  top: 130.5rem;
+  left: 18%; }
+  .address__text--phone {
+    padding-top: 16rem;
+    padding-bottom: 16rem; }
+  .address__text--metro {
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  .address__icon {
+    padding-right: 16rem;
+    font-size: 12rem; }
+
+.mapbox {
+  margin-top: 269.5rem;
+  margin-left: 25%;
+  width: 50%;
+  height: 179.5rem; }
+
+.social {
+  position: absolute;
+  font-family: "helveticaneuelight";
+  font-size: 8rem;
+  letter-spacing: .15rem;
+  color: white;
+  width: 40%;
+  top: 130.5rem;
+  left: 61%; }
+
+.address__icon--social {
+  font-size: 19rem;
+  padding-top: 9.5rem;
+  padding-bottom: 9.5rem; }
+
+.horario {
+  font-size: 12rem;
+  padding-bottom: 10.5rem; }
+  .horario__text {
+    font-size: 8rem;
+    padding-bottom: 1rem; }
+    .horario__text--span {
+      width: 80rem; }
+    .horario__text--1 {
+      display: inline-block;
+      width: 40rem; }
+    .horario__text--2 {
+      display: inline-block;
+      width: 40rem; }
+
+span {
+  float: right; }
+
+@media only screen and (min-width: 1050px) {
+  .footer {
+    background-color: #34558b;
+    position: relative;
+    height: 270rem; }
+  .logo__position {
+    width: 20%;
+    top: 27.5rem;
+    left: 11%; }
+  .address {
+    top: 130.5rem;
+    left: 11%; }
+  .social {
+    top: 57.5rem;
+    left: 72%; }
+  .mapbox {
+    margin-top: 44.5rem;
+    margin-left: 36%;
+    width: 28%;
+    height: 179.5rem; }
+  .horario__text--1 {
+    display: block;
+    padding-bottom: 16rem; }
+  .horario__text--2 {
+    display: block; } }
+
+.filosofia {
+  position: relative;
+  margin-top: 14rem;
+  text-align: center;
+  margin-bottom: 34rem;
+  overflow: hidden;
+  overflow: auto; }
+  .filosofia__container {
+    width: 100%;
+    position: absolute;
+    top: 27%; }
+  .filosofia__text {
+    font-family: 'roboto_mono_thin_for_powerlTh';
+    font-weight: 100;
+    color: #34558b;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: rgba(238, 232, 217, 0.801);
+    font-size: 16rem;
+    padding: 20rem;
+    width: 80%; }
+
+.kantine {
+  background-image: url(../images/kantineBanner@3xa.png);
+  background-size: cover;
+  background-position: center;
+  height: 332rem;
+  overflow: hidden; }
+  .kantine__container {
+    padding-top: 31.5rem;
+    width: 487.5rem;
+    margin-left: 15%; }
+  .kantine__header {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18rem;
+    color: #34558b;
+    margin-bottom: 19.5rem;
+    width: 50rem;
+    letter-spacing: 1rem; }
+    .kantine__header--blur {
+      width: 55rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7); }
+  .kantine__text {
+    font-family: "helveticaneuelight";
+    font-weight: 200;
+    font-size: 15rem;
+    color: #34558b;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 70vw;
+    letter-spacing: .53rem; }
+
+.principles {
+  overflow: auto;
+  background-image: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0) 30%, white 60%), url(../images/vege.jfif);
+  background-size: cover;
+  background-position: left;
+  overflow: hidden; }
+  .principles__container {
+    width: 300rem;
+    float: right;
+    padding-bottom: 55rem;
+    margin-right: 10%; }
+  .principles__header {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18rem;
+    color: #34558b;
+    padding: 50rem 0 0 15rem;
+    letter-spacing: 1rem; }
+  .principles__text {
+    font-family: "helveticaneuelight";
+    font-weight: 200;
+    font-size: 15rem;
+    color: #34558b;
+    padding: 23rem 0 0 15rem;
+    width: 90%;
+    letter-spacing: .53rem; }
+
+.sustainibility {
+  overflow: auto;
+  background-image: linear-gradient(90deg, #fff 0%, white 30%, rgba(0, 0, 0, 0) 60%), url(../images/sostenibilidad_banner@3xa.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; }
+  .sustainibility__container {
+    width: 300rem;
+    float: left;
+    margin-left: 15%;
+    padding-bottom: 50rem; }
+  .sustainibility__header {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18rem;
+    color: #34558b;
+    padding: 50rem 0 0 15rem;
+    letter-spacing: 1rem; }
+  .sustainibility__text {
+    font-family: "helveticaneuelight";
+    font-weight: 200;
+    font-size: 15rem;
+    color: #34558b;
+    padding: 23rem 0 0 15rem;
+    width: 90%;
+    letter-spacing: .53rem; }
+
+@media only screen and (min-width: 1750px) {
+  .filosofia {
+    font-size: 12rem;
+    overflow: hidden; }
+  .filosofia__text {
+    padding: 15rem;
+    width: 60%; } }
+
+@media only screen and (max-width: 1450px) {
+  .filosofia {
+    overflow: hidden;
+    font-size: 13rem; }
+  .filosofia__text {
+    width: 85%; } }
+
+@media only screen and (max-width: 1350px) {
+  .filosofia {
+    overflow: auto;
+    font-size: 12rem; }
+  .filosofia__text {
+    padding: 15rem;
+    width: 85%; } }
+
+@media only screen and (max-width: 1200px) {
+  .filosofia {
+    overflow: auto;
+    font-size: 12rem; }
+  .filosofia__text {
+    transform: translateY(-10rem);
+    padding: 10rem;
+    width: 85%; } }
+
+@media only screen and (max-width: 1050px) {
+  .filosofia {
+    overflow: auto;
+    font-size: 11rem; }
+  .filosofia__text {
+    padding: 10rem; } }
+
+@media only screen and (max-width: 1000px) {
+  .filosofia {
+    overflow: auto;
+    font-size: 11rem; }
+  .filosofia__text {
+    padding: 5rem; } }
+
+@media only screen and (max-width: 650px) {
+  .filosofia {
+    overflow: auto; }
+  .filosofia__text {
+    padding: 4rem;
+    width: 100%; } }
+
+@media only screen and (max-width: 815px) {
+  .filosofia {
+    overflow: auto; }
+  .filosofia__container {
+    font-size: 13rem; }
+  .filosofia__text {
+    padding: 14rem;
+    font-size: 13rem;
+    width: 85%; }
+  .kantine {
+    height: 90%; }
+  .kantine__container {
+    margin: 0 10%; }
+  .kantine__header {
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt; }
+  .kantine__header--blur {
+    width: 55rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7);
+    margin: 0 auto; }
+  .kantine__text {
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt;
+    line-height: 18rem; }
+  .principles {
+    background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg);
+    height: 90%; }
+  .principles__container {
+    margin: 0 10% 0 10%;
+    float: none; }
+  .principles__text {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 20px 40px rgba(255, 255, 255, 0.6);
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt;
+    padding-left: 0;
+    line-height: 18rem; }
+  .principles__header {
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt;
+    padding-left: 0;
+    padding-top: 28rem; }
+  .sustainibility {
+    background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
+    height: 90%; }
+  .sustainibility__container {
+    margin: 0 10%;
+    float: none;
+    padding-bottom: 48rem; }
+  .sustainibility__text {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 20px 30px rgba(255, 255, 255, 0.6);
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt;
+    padding-left: 0;
+    line-height: 18rem; }
+  .sustainibility__header {
+    width: 80vw;
+    text-align: center;
+    letter-spacing: 0.25pt;
+    padding-left: 0;
+    padding-top: 28rem; } }
+
+@media only screen and (max-width: 600px) {
+  .filosofia__text {
+    transform: translateY(0);
+    padding: 7rem;
+    font-size: 11rem;
+    width: 100vw; } }
+
+@media only screen and (max-width: 425px) {
+  .filosofia {
+    overflow: auto; }
+  .filosofia__text {
+    transform: translateY(0);
+    padding: 5rem;
+    font-size: 10rem;
+    width: 100vw; }
+  .filosofiaLogo {
+    width: 90vw; }
+  .principles__container {
+    width: 100vw; }
+  .sustainibility__container {
+    width: 100vw; } }
+
+@media only screen and (max-width: 380px) {
+  .filosofia__text {
+    transform: translateY(0);
+    padding: 4rem;
+    font-size: 9.5rem;
+    width: 100vw; } }
+
+@media only screen and (max-width: 340px) {
+  .filosofia__text {
+    transform: translateY(0);
+    padding: 3rem;
+    font-size: 8.5rem;
+    width: 100vw; } }
