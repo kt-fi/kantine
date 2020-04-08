@@ -437,7 +437,7 @@ span {
 
 @media only screen and (max-width: 1200px) {
   .filosofia {
-    overflow: hidden;
+    overflow: auto;
     font-size: 12rem; }
   .filosofia__text {
     padding: 15rem;
@@ -445,7 +445,7 @@ span {
 
 @media only screen and (max-width: 1200px) {
   .filosofia {
-    overflow: hidden;
+    overflow: auto;
     font-size: 12rem; }
   .filosofia__text {
     padding: 15rem;
@@ -453,7 +453,7 @@ span {
 
 @media only screen and (max-width: 815px) {
   .filosofia {
-    overflow: hidden; }
+    overflow: auto; }
   .filosofia__container {
     font-size: 10rem; }
   .filosofia__text {
@@ -521,6 +521,8 @@ span {
     padding-top: 28rem; } }
 
 @media only screen and (max-width: 450px) {
+  .filosofia {
+    overflow: auto; }
   .filosofia__text {
     padding: 5rem;
     font-size: 10rem;
