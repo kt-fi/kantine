@@ -338,7 +338,7 @@ span {
   background-size: cover;
   background-position: center;
   height: 332rem;
-  overflow: hidden; }
+  overflow: auto; }
   .kantine__container {
     padding-top: 31.5rem;
     width: 487.5rem;
@@ -419,41 +419,17 @@ span {
     width: 90%;
     letter-spacing: .53rem; }
 
-@media only screen and (min-width: 1750px) {
-  .filosofia {
-    font-size: 12rem; }
-    .filosofia__text {
-      padding: 15rem;
-      width: 60%; } }
-
-@media only screen and (max-width: 1300px) {
-  .filosofia {
-    font-size: 13rem; }
-    .filosofia__text {
-      width: 85%; } }
-
-@media only screen and (max-width: 1200px) {
-  .filosofia {
-    font-size: 12rem; }
-    .filosofia__text {
-      padding: 15rem;
-      width: 95%; } }
-
-@media only screen and (max-width: 1200px) {
-  .filosofia {
-    font-size: 12rem; }
-    .filosofia__text {
-      padding: 15rem;
-      width: 100%; } }
-
 @media only screen and (max-width: 815px) {
-  .filosofia__container {
-    font-size: 10rem; }
-  .filosofia__text {
-    padding: 14rem;
-    font-size: 13rem;
-    width: 100%; }
+  .filosofia {
+    overflow: auto; }
+    .filosofia__container {
+      font-size: 10rem; }
+    .filosofia__text {
+      padding: 16rem;
+      font-size: 13rem;
+      width: 100%; }
   .kantine {
+    overflow: auto;
     height: 90%; }
     .kantine__container {
       margin: 0 10%; }
