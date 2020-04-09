@@ -502,7 +502,8 @@ span {
     line-height: 18rem; }
   .principles {
     background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg);
-    height: 90%; }
+    height: 90%;
+    background-size: contain; }
   .principles__container {
     margin: 0 10% 0 10%;
     float: none; }
