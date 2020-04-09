@@ -471,7 +471,7 @@ span {
   .filosofia__text {
     padding: 18rem;
     font-size: 13rem;
-    width: 100%; } }
+    width: 85%; } }
 
 @media only screen and (max-width: 815px) and (max-width: 670px) {
   .filosofia {
@@ -483,7 +483,8 @@ span {
 
 @media only screen and (max-width: 815px) {
   .kantine {
-    height: 90%; }
+    height: 90%;
+    padding-bottom: 50rem; }
   .kantine__container {
     margin: 0 10%; }
   .kantine__header {
@@ -491,7 +492,7 @@ span {
     text-align: center;
     letter-spacing: 0.25pt; }
   .kantine__header--blur {
-    width: 55rem;
+    width: 57rem;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7);
     margin: 0 auto; }
@@ -501,20 +502,21 @@ span {
     letter-spacing: 0.25pt;
     line-height: 18rem; }
   .principles {
-    background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg);
+    background-image: url(../images/homepageFoodPrinciplesTabletImg@2x.jpg);
     height: 90%;
-    background-size: contain; }
+    background-size: cover;
+    background-position: center; }
   .principles__container {
     margin: 0 10% 0 10%;
     float: none; }
   .principles__text {
-    background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0px 0px 20px 40px rgba(255, 255, 255, 0.6);
     width: 80vw;
     text-align: center;
     letter-spacing: 0.25pt;
     padding-left: 0;
-    line-height: 18rem; }
+    line-height: 18rem;
+    text-shadow: 5px 2px 6px #fffdfd;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.5) 60%, transparent 72%); }
   .principles__header {
     width: 80vw;
     text-align: center;
@@ -523,25 +525,35 @@ span {
     padding-top: 28rem; }
   .sustainibility {
     background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
-    height: 90%; }
+    height: 80%;
+    background-size: cover;
+    background-position: center; }
   .sustainibility__container {
     margin: 0 10%;
     float: none;
     padding-bottom: 48rem; }
   .sustainibility__text {
-    background-color: rgba(255, 255, 255, 0.6);
-    box-shadow: 0px 0px 20px 30px rgba(255, 255, 255, 0.6);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.5) 60%, transparent 72%);
     width: 80vw;
     text-align: center;
     letter-spacing: 0.25pt;
     padding-left: 0;
-    line-height: 18rem; }
+    padding-top: 0;
+    line-height: 18rem;
+    text-shadow: 5px 2px 6px #fffdfd; }
   .sustainibility__header {
     width: 80vw;
     text-align: center;
     letter-spacing: 0.25pt;
     padding-left: 0;
-    padding-top: 28rem; } }
+    padding-top: 28rem;
+    padding-bottom: 24.5rem; }
+    .sustainibility__header--shadow {
+      background-color: rgba(255, 255, 255, 0.8);
+      box-shadow: 0px 0px 30px 20px rgba(255, 255, 255, 0.9);
+      width: 80rem;
+      height: 10rem;
+      margin: 0 auto; } }
 
 @media only screen and (max-width: 485px) {
   .filosofia {
@@ -571,11 +583,3 @@ span {
   .filosofia__text {
     padding: 5rem;
     font-size: 10rem; } }
-
-@media only screen and (max-width: 380px) {
-  .filosofia {
-    overflow: auto; }
-  .filosofia__text {
-    padding: 5rem;
-    font-size: 9rem;
-    letter-spacing: -1rem; } }
