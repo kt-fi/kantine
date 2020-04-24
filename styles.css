@@ -473,7 +473,10 @@ span {
   .sustainibility {
     height: 240rem; }
     .sustainibility__header {
-      top: 32rem; } }
+      top: 32rem; }
+    .sustainibility__text {
+      transform: translateY(-8rem);
+      font-size: 11rem; } }
 
 .sustainibility_2 {
   background-image: url(../images/homepageSostenibilidadImg.jpg);
