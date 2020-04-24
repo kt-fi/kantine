@@ -31,7 +31,7 @@ function dropDownNav(){
 
 $(document).ready(function(){
     width = $(document).width();
-    if( width < 930 ){
+    if( width < 760 ){
      smallScreen();
     }else{
         bigScreen();
@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 $(window).on("resize", function(){
    width = $(document).width();
-   if( width < 930 ){
+   if( width < 760 ){
         smallScreen();
    }else{
         bigScreen();
