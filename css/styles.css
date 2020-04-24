@@ -178,7 +178,7 @@ a {
   padding-top: 20px;
   text-align: left; }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 1030px) {
   .navbarK__links {
     font-size: 10.5rem; } }
 
@@ -474,7 +474,7 @@ span {
     .sustainibility__header {
       top: 32rem; }
     .sustainibility__text {
-      padding-top: 45rem; } }
+      padding-top: 15rem; } }
 
 .sustainibility_2 {
   background-image: url(../images/homepageSostenibilidadImg.jpg);
