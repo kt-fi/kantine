@@ -1,0 +1,686 @@
+.nav__logo {
+  border: 1.4px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 31.4rem;
+  height: 27.4rem;
+  transform: translateY(-5rem); }
+  .nav__logo__text {
+    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(80%); }
+  .nav__logo__text--small {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: translateY(360%);
+    background-color: #253d63;
+    width: 70%;
+    margin: 0 auto; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 1.42pt;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth; }
+  @media screen and (max-width: 750px) {
+    html {
+      font-size: 1.3pt; } }
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  max-width: 1350px;
+  margin: 0 auto; }
+
+.overflow {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.navLinks {
+  color: white; }
+  .navLinks:hover {
+    color: white; }
+
+.footerLink {
+  color: white; }
+  .footerLink:hover {
+    text-decoration: underline;
+    color: white; }
+
+@font-face {
+  font-family: 'roboto_mono_thin_for_powerlTh';
+  src: url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff2") format("woff2"), url("../css/fonts/roboto_mono_thin_for_powerline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuethin';
+  src: url("../css/fonts/helveticaneue_thin-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'helveticaneuelight';
+  src: url("../css/fonts/helveticaneue_light-webfont.woff2") format("woff2"), url("../css/fonts/helveticaneue_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'muliregular';
+  src: url("../css/fonts/muli-variablefont_wght-webfont.woff2") format("woff2"), url("../css/fonts/muli-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'coalhandlukecoalhandluketrial';
+  src: url("../css/fonts/coalhandluke_trial-webfont.woff2") format("woff2"), url("../css/fonts/coalhandluke_trial-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'quincy_cflight_italic';
+  src: url("../css/fonts/quincy_cf_light_italic-webfont.woff2") format("woff2"), url("../css/fonts/quincy_cf_light_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.filosofiaLogo {
+  z-index: -1; }
+
+.scrollDown {
+  font-size: 40rem;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  transform: translateY(150rem); }
+
+.header {
+  background-image: url(../images/homepageHeaderImg@3x.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%; }
+  @media screen and (max-width: 1050px) {
+    .header {
+      background-image: url(../images/homepageHeaderImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .header {
+      background-image: url(../images/homepageHeaderImg.jpg); } }
+  .header__logo {
+    padding: 16rem 16rem; }
+
+.logo {
+  border: 2px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 94rem;
+  height: 82rem; }
+  .logo__text {
+    font-size: 24rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(60%); }
+  .logo__text--small {
+    font-size: 9rem;
+    color: white;
+    text-align: center;
+    transform: translateY(285%);
+    background-color: #caae9e;
+    width: 70%;
+    margin: 0 auto; }
+
+.navbarK {
+  background-color: #34558b;
+  text-align: center;
+  height: 40rem;
+  position: -webkit-sticky;
+  z-index: 3;
+  overflow: hidden; }
+  .navbarK__under {
+    width: 0%;
+    border-bottom: 4px white solid;
+    transition: all 0.1s; }
+    .navbarK__under:hover {
+      width: 70%; }
+    .navbarK__under--current {
+      width: 70%;
+      border-bottom: 4px white solid;
+      transition: all 0.5s; }
+  .navbarK__links {
+    font-size: 15rem;
+    color: white;
+    font-family: "quincy_cflight_italic";
+    font-weight: 200;
+    text-transform: capitalize;
+    letter-spacing: 0.9rem; }
+    .navbarK__links--link {
+      display: inline-block;
+      padding: 7rem 3px 5px 0;
+      margin: 0 3%;
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%; }
+
+.navbarK__links--hamburger {
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%; }
+
+.navbarK__links--brand {
+  display: inline-block;
+  width: 80%;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 15rem;
+  transform: translateY(-10rem); }
+
+@media only screen and (max-width: 930px) {
+  .navbarK__links {
+    padding-top: 2rem;
+    font-size: 12.5rem; } }
+
+.navbarKDrop {
+  background-color: #34558b;
+  text-align: center;
+  height: min-content;
+  position: -webkit-sticky;
+  z-index: 2;
+  margin-top: -40rem;
+  overflow: hidden;
+  font-size: 12rem;
+  padding-bottom: 55rem; }
+  .navbarKDrop__linksDrop {
+    font-size: 12rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase; }
+    .navbarKDrop__linksDrop--linkDrop {
+      display: inline-block;
+      font-size: 12rem;
+      padding: 40rem 3px 5px 0;
+      margin: 0 4%;
+      border-bottom: 4px transparent solid;
+      transition: all .25s ease-in; }
+      .navbarKDrop__linksDrop--linkDrop:hover {
+        border-bottom: 2rem white solid; }
+
+.navLinksToggle {
+  background-color: #34558b;
+  color: white;
+  border: 0;
+  transform: translateY(-10rem); }
+
+.footer {
+  background-color: #34558b;
+  position: relative;
+  height: 461rem; }
+
+.logo__position {
+  width: 50%;
+  position: absolute;
+  top: 24rem;
+  left: 25%; }
+
+.footer__logo {
+  border: 2px rgba(255, 255, 255, 0.74) solid;
+  border-radius: 4rem;
+  width: 94rem;
+  height: 82rem;
+  margin: 0 auto;
+  top: 24rem; }
+  .footer__logo__text {
+    font-size: 24rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    transform: translateY(60%); }
+  .footer__logo__text--small {
+    font-size: 9rem;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    transform: translateY(285%);
+    background-color: #34558b;
+    width: 70%;
+    margin: 0 auto; }
+
+.address {
+  position: absolute;
+  font-family: "helveticaneuelight";
+  font-size: 8rem;
+  letter-spacing: .15rem;
+  color: white;
+  width: 40%;
+  top: 130.5rem;
+  left: 18%; }
+  @media screen and (max-width: 580px) {
+    .address {
+      transform: translateX(-25rem); } }
+  .address__text--phone {
+    padding-top: 16rem;
+    padding-bottom: 16rem; }
+  .address__text--metro {
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  .address__icon {
+    padding-right: 16rem;
+    font-size: 12rem; }
+
+.mapbox {
+  margin-top: 269.5rem;
+  margin-left: 25%;
+  width: 50%;
+  height: 179.5rem; }
+  @media screen and (max-width: 580px) {
+    .mapbox {
+      padding-top: 20rem; } }
+
+.social {
+  position: absolute;
+  font-family: "helveticaneuelight";
+  font-size: 8rem;
+  letter-spacing: .15rem;
+  color: white;
+  width: 40%;
+  top: 130.5rem;
+  left: 61%; }
+
+.address__icon--social {
+  font-size: 19rem;
+  padding-top: 9.5rem;
+  padding-bottom: 9.5rem; }
+
+.horario {
+  font-size: 12rem;
+  padding-bottom: 10.5rem; }
+  .horario__text {
+    font-size: 8rem;
+    padding-bottom: 1rem; }
+    .horario__text--span {
+      width: 80rem; }
+    .horario__text--1 {
+      display: inline-block;
+      width: 40rem; }
+    .horario__text--2 {
+      display: inline-block;
+      width: 40rem; }
+
+span {
+  float: right; }
+
+@media only screen and (min-width: 1050px) {
+  .footer {
+    background-color: #34558b;
+    position: relative;
+    height: 270rem; }
+  .logo__position {
+    width: 20%;
+    top: 27.5rem;
+    left: 11%; }
+  .address {
+    top: 130.5rem;
+    left: 11%; }
+  .social {
+    top: 57.5rem;
+    left: 72%; }
+  .mapbox {
+    margin-top: 44.5rem;
+    margin-left: 36%;
+    width: 28%;
+    height: 179.5rem; }
+  .horario__text--1 {
+    display: block;
+    padding-bottom: 16rem; }
+  .horario__text--2 {
+    display: block; } }
+
+.kantine {
+  background-image: url(../images/kantineBanner@3xa.png);
+  background-size: cover;
+  background-position: center;
+  height: 240rem;
+  overflow: hidden; }
+  @media screen and (max-width: 1050px) {
+    .kantine {
+      background-image: url(../images/homepageKantineTabletImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .kantine {
+      background-image: url(../images/homepageKantineTabletImg.jpg); } }
+  .kantine__container {
+    padding-top: 31.5rem;
+    width: 64%;
+    margin-left: 18%; }
+  .kantine__header {
+    font-family: "quincy_cflight_italic";
+    font-weight: 200;
+    font-size: 18rem;
+    color: #253d63;
+    margin-bottom: 19.5rem;
+    width: 50rem; }
+    .kantine__header--blur {
+      width: 55rem;
+      background-color: rgba(255, 255, 255, 0.301);
+      box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.342); }
+  .kantine__text {
+    font-family: "muliregular", sans-serif;
+    font-weight: 500;
+    font-size: 10.5rem;
+    color: #253d63;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.534);
+    width: 63vw;
+    line-height: 15.5rem;
+    letter-spacing: .3rem;
+    hyphens: auto; }
+    @media screen and (min-width: 1000px) {
+      .kantine__text {
+        width: 100%; } }
+
+@media only screen and (max-width: 1000px) {
+  .kantine {
+    height: 355rem; }
+    .kantine__container {
+      width: 75%;
+      margin-left: 12.5%; }
+    .kantine__text {
+      width: 100%; } }
+
+.principles {
+  background-image: url(../images/vege.jfif);
+  height: 240rem;
+  background-size: cover;
+  hyphens: auto;
+  overflow: hidden; }
+  @media screen and (max-width: 400px) {
+    .principles {
+      background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg); } }
+  @media screen and (max-width: 500px) {
+    .principles {
+      height: min-content;
+      padding-bottom: 20px; } }
+  .principles__container {
+    width: 75%;
+    margin-left: 18%; }
+    @media screen and (max-width: 500px) {
+      .principles__container {
+        height: min-content;
+        padding-bottom: 20px;
+        width: 74%; } }
+  .principles__header {
+    font-family: "quincy_cflight_italic";
+    font-weight: 200;
+    font-size: 18rem;
+    color: #253d63;
+    margin-bottom: 19.5rem;
+    padding-top: 35rem;
+    width: 150rem; }
+    @media screen and (max-width: 500px) {
+      .principles__header {
+        padding-top: 10rem; } }
+    .principles__header--blur {
+      width: 150rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7); }
+  .principles__text {
+    font-family: "muliregular", sans-serif;
+    font-weight: 500;
+    font-size: 10.5rem;
+    color: #253d63;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 63vw;
+    line-height: 15.5rem;
+    letter-spacing: .3rem; }
+    @media screen and (min-width: 1000px) {
+      .principles__text {
+        width: 100%; } }
+  @media only screen and (max-width: 1000px) {
+    .principles .principles {
+      height: min-content; }
+      .principles .principles__container {
+        margin-left: 12.5%; }
+      .principles .principles__text {
+        width: 100%; } }
+
+.sustainibility {
+  position: relative;
+  height: 190rem;
+  margin-top: 14rem;
+  text-align: center;
+  overflow: hidden;
+  overflow: auto;
+  background-color: #f89a00; }
+  .sustainibility__container {
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid white;
+    border-radius: 5px;
+    overflow: hidden; }
+  .sustainibility__header {
+    font-family: "coalhandlukecoalhandluketrial";
+    position: absolute;
+    top: 26rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36rem;
+    color: white;
+    background-color: #f89a00;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    z-index: 1; }
+    @media screen and (max-width: 600px) {
+      .sustainibility__header {
+        font-size: 20rem; } }
+    @media screen and (max-width: 550px) {
+      .sustainibility__header {
+        transform: translate(-50%, -25%); } }
+    @media screen and (max-width: 500px) {
+      .sustainibility__header {
+        transform: translate(-50%, -35%);
+        font-size: 25rem; } }
+    @media screen and (max-width: 460px) {
+      .sustainibility__header {
+        transform: translate(-50%, -85%);
+        font-size: 18rem; } }
+    @media screen and (max-width: 400px) {
+      .sustainibility__header {
+        transform: translate(-50%, -105%);
+        padding-top: 35rem; } }
+  .sustainibility__text {
+    font-family: "quincy_cflight_italic";
+    font-weight: 600;
+    color: white;
+    margin: 0 auto;
+    font-size: 12rem;
+    line-height: 14rem;
+    letter-spacing: .97rem;
+    padding-top: 30rem;
+    padding-bottom: 8.5rem;
+    width: 80%;
+    z-index: 2; }
+  .sustainibility__note {
+    font-size: 10rem;
+    font-family: "quincy_cflight_italic";
+    padding-bottom: 12.5rem;
+    color: white;
+    font-weight: 700; }
+
+@media only screen and (max-width: 1350px) {
+  .sustainibility__header {
+    top: 25rem; } }
+
+@media only screen and (max-width: 1225px) {
+  .sustainibility__header {
+    top: 20rem; } }
+
+@media only screen and (max-width: 850px) {
+  .sustainibility {
+    height: 240rem; }
+    .sustainibility__header {
+      top: 32rem; }
+    .sustainibility__text {
+      transform: translateY(-8rem);
+      font-size: 11rem; } }
+
+@media screen and (max-width: 400px) {
+  .sustainibility {
+    height: 290rem; }
+    .sustainibility__container {
+      margin-top: 5rem;
+      margin-bottom: 15rem; }
+    .sustainibility__header {
+      margin-top: 18rem; } }
+
+.sustainibility_2 {
+  background-image: url(../images/homepageSostenibilidadTabletImg@3x.jpg);
+  height: 300rem;
+  background-size: cover;
+  hyphens: auto;
+  overflow: hidden; }
+  @media screen and (max-width: 1050px) {
+    .sustainibility_2 {
+      background-image: url(../images/homepageSostenibilidadTabletImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .sustainibility_2 {
+      background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
+      background-size: auto; } }
+  .sustainibility_2__container {
+    padding-top: 28rem;
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%; }
+    @media screen and (max-width: 500px) {
+      .sustainibility_2__container {
+        padding-top: 0rem; } }
+  .sustainibility_2__header {
+    font-family: "quincy_cflight_italic";
+    font-weight: 200;
+    font-size: 18rem;
+    color: #253d63;
+    margin-bottom: 19.5rem;
+    margin-top: 15rem;
+    width: fit-content; }
+    @media screen and (max-width: 500px) {
+      .sustainibility_2__header {
+        margin-top: 5rem; } }
+  .sustainibility_2__text {
+    font-family: "muliregular", sans-serif;
+    font-weight: 500;
+    font-size: 10.5rem;
+    color: #253d63;
+    line-height: 15.5rem;
+    width: 63vw;
+    letter-spacing: .3rem; }
+    @media screen and (min-width: 1000px) {
+      .sustainibility_2__text {
+        width: 100%; } }
+
+@media only screen and (max-width: 1000px) {
+  .sustainibility_2 {
+    height: 350rem;
+    background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
+    height: 300rem;
+    background-size: cover; }
+    .sustainibility_2__container {
+      padding-top: 28rem;
+      width: 75%;
+      margin-left: 12.5%;
+      margin-right: 12.5%; }
+    .sustainibility_2__text {
+      width: 100%; } }
+
+@media only screen and (max-width: 850px) {
+  .sustainibility_2 {
+    height: min-content; } }
+
+@media only screen and (max-width: 780px) {
+  .sustainibility_2 {
+    height: max-content;
+    padding-bottom: 20rem; } }
+
+.filosofia {
+  position: relative;
+  height: 180rem;
+  margin-top: 14rem;
+  text-align: center;
+  margin-bottom: 20rem;
+  overflow: hidden;
+  overflow: auto; }
+  @media screen and (max-width: 395px) {
+    .filosofia {
+      height: 205rem; } }
+  .filosofia__container {
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #253d63;
+    border-radius: 5px;
+    overflow: hidden; }
+    @media screen and (max-width: 395px) {
+      .filosofia__container {
+        margin-top: 10rem; } }
+  .filosofia__header {
+    font-family: "coalhandlukecoalhandluketrial";
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36rem;
+    color: #253d63;
+    background-color: white;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    z-index: 1; }
+    @media screen and (max-width: 395px) {
+      .filosofia__header {
+        margin-top: 10rem; } }
+    @media screen and (max-width: 545px) {
+      .filosofia__header {
+        transform: translate(-50%, -20%); } }
+    @media screen and (max-width: 530px) {
+      .filosofia__header {
+        transform: translate(-50%, -35%);
+        font-size: 25rem; } }
+    @media screen and (max-width: 395px) {
+      .filosofia__header {
+        transform: translate(-50%, -65%);
+        font-size: 25rem;
+        z-index: 100000; } }
+  .filosofia__subheader {
+    font-family: "quincy_cflight_italic";
+    font-size: 15rem;
+    color: #253d63;
+    padding-top: 34rem;
+    margin-bottom: 13rem; }
+  .filosofia__text {
+    font-family: "quincy_cflight_italic";
+    font-weight: 100;
+    color: #253d63;
+    margin: 0 auto;
+    z-index: 1;
+    font-size: 10.5rem;
+    padding-bottom: 33.5rem;
+    width: 80%; }
