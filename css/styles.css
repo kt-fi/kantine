@@ -34,7 +34,7 @@ html {
   scroll-behavior: smooth; }
   @media screen and (max-width: 750px) {
     html {
-      font-size: 1pt; } }
+      font-size: 1.3pt; } }
 
 body {
   box-sizing: border-box;
@@ -112,6 +112,12 @@ a {
   background-size: cover;
   background-position: center;
   width: 100%; }
+  @media screen and (max-width: 1050px) {
+    .header {
+      background-image: url(../images/homepageHeaderImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .header {
+      background-image: url(../images/homepageHeaderImg.jpg); } }
   .header__logo {
     padding: 16rem 16rem; }
 
@@ -265,7 +271,7 @@ a {
   width: 40%;
   top: 130.5rem;
   left: 18%; }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .address {
       transform: translateX(-25rem); } }
   .address__text--phone {
@@ -283,7 +289,7 @@ a {
   margin-left: 25%;
   width: 50%;
   height: 179.5rem; }
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 580px) {
     .mapbox {
       padding-top: 20rem; } }
 
@@ -352,6 +358,12 @@ span {
   background-position: center;
   height: 240rem;
   overflow: hidden; }
+  @media screen and (max-width: 1050px) {
+    .kantine {
+      background-image: url(../images/homepageKantineTabletImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .kantine {
+      background-image: url(../images/homepageKantineTabletImg.jpg); } }
   .kantine__container {
     padding-top: 31.5rem;
     width: 64%;
@@ -397,12 +409,15 @@ span {
   background-size: cover;
   hyphens: auto;
   overflow: hidden; }
+  @media screen and (max-width: 400px) {
+    .principles {
+      background-image: url(../images/homepageFoodPrinciplesTabletImg.jpg); } }
   @media screen and (max-width: 500px) {
     .principles {
       height: min-content;
       padding-bottom: 20px; } }
   .principles__container {
-    width: 64%;
+    width: 75%;
     margin-left: 18%; }
     @media screen and (max-width: 500px) {
       .principles__container {
@@ -474,16 +489,24 @@ span {
     padding-right: 20rem;
     padding-left: 20rem;
     z-index: 1; }
-    @media screen and (max-width: 475px) {
+    @media screen and (max-width: 600px) {
       .sustainibility__header {
-        font-size: 30rem; } }
-    @media screen and (max-width: 450px) {
+        font-size: 20rem; } }
+    @media screen and (max-width: 550px) {
       .sustainibility__header {
         transform: translate(-50%, -25%); } }
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 500px) {
       .sustainibility__header {
         transform: translate(-50%, -35%);
         font-size: 25rem; } }
+    @media screen and (max-width: 460px) {
+      .sustainibility__header {
+        transform: translate(-50%, -85%);
+        font-size: 18rem; } }
+    @media screen and (max-width: 400px) {
+      .sustainibility__header {
+        transform: translate(-50%, -105%);
+        padding-top: 35rem; } }
   .sustainibility__text {
     font-family: "quincy_cflight_italic";
     font-weight: 600;
@@ -520,12 +543,28 @@ span {
       transform: translateY(-8rem);
       font-size: 11rem; } }
 
+@media screen and (max-width: 400px) {
+  .sustainibility {
+    height: 290rem; }
+    .sustainibility__container {
+      margin-top: 5rem;
+      margin-bottom: 15rem; }
+    .sustainibility__header {
+      margin-top: 18rem; } }
+
 .sustainibility_2 {
-  background-image: url(../images/homepageSostenibilidadImg.jpg);
+  background-image: url(../images/homepageSostenibilidadTabletImg@3x.jpg);
   height: 300rem;
   background-size: cover;
   hyphens: auto;
   overflow: hidden; }
+  @media screen and (max-width: 1050px) {
+    .sustainibility_2 {
+      background-image: url(../images/homepageSostenibilidadTabletImg@2x.jpg); } }
+  @media screen and (max-width: 400px) {
+    .sustainibility_2 {
+      background-image: url(../images/homepageSostenibilidadTabletImg.jpg);
+      background-size: auto; } }
   .sustainibility_2__container {
     padding-top: 28rem;
     width: 64%;
@@ -577,7 +616,7 @@ span {
 
 @media only screen and (max-width: 780px) {
   .sustainibility_2 {
-    height: min-content;
+    height: max-content;
     padding-bottom: 20rem; } }
 
 .filosofia {
@@ -588,6 +627,9 @@ span {
   margin-bottom: 20rem;
   overflow: hidden;
   overflow: auto; }
+  @media screen and (max-width: 395px) {
+    .filosofia {
+      height: 205rem; } }
   .filosofia__container {
     position: absolute;
     width: 75%;
@@ -597,6 +639,9 @@ span {
     border: 3px solid #253d63;
     border-radius: 5px;
     overflow: hidden; }
+    @media screen and (max-width: 395px) {
+      .filosofia__container {
+        margin-top: 10rem; } }
   .filosofia__header {
     font-family: "coalhandlukecoalhandluketrial";
     position: absolute;
@@ -609,13 +654,21 @@ span {
     padding-right: 20rem;
     padding-left: 20rem;
     z-index: 1; }
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 395px) {
+      .filosofia__header {
+        margin-top: 10rem; } }
+    @media screen and (max-width: 545px) {
       .filosofia__header {
         transform: translate(-50%, -20%); } }
-    @media screen and (max-width: 410px) {
+    @media screen and (max-width: 530px) {
       .filosofia__header {
         transform: translate(-50%, -35%);
-        font-size: 30rem; } }
+        font-size: 25rem; } }
+    @media screen and (max-width: 395px) {
+      .filosofia__header {
+        transform: translate(-50%, -65%);
+        font-size: 25rem;
+        z-index: 100000; } }
   .filosofia__subheader {
     font-family: "quincy_cflight_italic";
     font-size: 15rem;
