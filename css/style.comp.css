@@ -353,7 +353,7 @@ span {
     display: block; } }
 
 .kantine {
-  background-image: url(../images/kantineBanner@3xa.png);
+  background-image: url(../images/homepageKantineTabletImg@3x.jpg);
   background-size: cover;
   background-position: center;
   height: 240rem;
@@ -417,7 +417,7 @@ span {
       height: min-content;
       padding-bottom: 20px; } }
   .principles__container {
-    width: 75%;
+    width: 70%;
     margin-left: 18%; }
     @media screen and (max-width: 500px) {
       .principles__container {
