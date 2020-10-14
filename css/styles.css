@@ -32,10 +32,15 @@ html {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth; }
+  @media screen and (max-width: 750px) {
+    html {
+      font-size: 1pt; } }
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 1350px;
+  margin: 0 auto; }
 
 .overflow {
   overflow-x: hidden; }
@@ -176,7 +181,9 @@ a {
   display: inline-block;
   width: 80%;
   padding-top: 20px;
-  text-align: left; }
+  text-align: left;
+  font-size: 15rem;
+  transform: translateY(-10rem); }
 
 @media only screen and (max-width: 930px) {
   .navbarK__links {
@@ -186,12 +193,13 @@ a {
 .navbarKDrop {
   background-color: #34558b;
   text-align: center;
-  height: 140rem;
+  height: min-content;
   position: -webkit-sticky;
   z-index: 2;
   margin-top: -40rem;
   overflow: hidden;
-  font-size: 12rem; }
+  font-size: 12rem;
+  padding-bottom: 55rem; }
   .navbarKDrop__linksDrop {
     font-size: 12rem;
     color: white;
@@ -211,7 +219,8 @@ a {
 .navLinksToggle {
   background-color: #34558b;
   color: white;
-  border: 0; }
+  border: 0;
+  transform: translateY(-10rem); }
 
 .footer {
   background-color: #34558b;
@@ -256,6 +265,9 @@ a {
   width: 40%;
   top: 130.5rem;
   left: 18%; }
+  @media screen and (max-width: 450px) {
+    .address {
+      transform: translateX(-25rem); } }
   .address__text--phone {
     padding-top: 16rem;
     padding-bottom: 16rem; }
@@ -271,6 +283,9 @@ a {
   margin-left: 25%;
   width: 50%;
   height: 179.5rem; }
+  @media screen and (max-width: 450px) {
+    .mapbox {
+      padding-top: 20rem; } }
 
 .social {
   position: absolute;
@@ -363,6 +378,9 @@ span {
     line-height: 15.5rem;
     letter-spacing: .3rem;
     hyphens: auto; }
+    @media screen and (min-width: 1000px) {
+      .kantine__text {
+        width: 100%; } }
 
 @media only screen and (max-width: 1000px) {
   .kantine {
@@ -379,9 +397,18 @@ span {
   background-size: cover;
   hyphens: auto;
   overflow: hidden; }
+  @media screen and (max-width: 500px) {
+    .principles {
+      height: min-content;
+      padding-bottom: 20px; } }
   .principles__container {
     width: 64%;
     margin-left: 18%; }
+    @media screen and (max-width: 500px) {
+      .principles__container {
+        height: min-content;
+        padding-bottom: 20px;
+        width: 74%; } }
   .principles__header {
     font-family: "quincy_cflight_italic";
     font-weight: 200;
@@ -390,6 +417,9 @@ span {
     margin-bottom: 19.5rem;
     padding-top: 35rem;
     width: 150rem; }
+    @media screen and (max-width: 500px) {
+      .principles__header {
+        padding-top: 10rem; } }
     .principles__header--blur {
       width: 150rem;
       background-color: rgba(255, 255, 255, 0.6);
@@ -404,11 +434,13 @@ span {
     width: 63vw;
     line-height: 15.5rem;
     letter-spacing: .3rem; }
+    @media screen and (min-width: 1000px) {
+      .principles__text {
+        width: 100%; } }
   @media only screen and (max-width: 1000px) {
     .principles .principles {
-      height: 355rem; }
+      height: min-content; }
       .principles .principles__container {
-        width: 75%;
         margin-left: 12.5%; }
       .principles .principles__text {
         width: 100%; } }
@@ -442,6 +474,16 @@ span {
     padding-right: 20rem;
     padding-left: 20rem;
     z-index: 1; }
+    @media screen and (max-width: 475px) {
+      .sustainibility__header {
+        font-size: 30rem; } }
+    @media screen and (max-width: 450px) {
+      .sustainibility__header {
+        transform: translate(-50%, -25%); } }
+    @media screen and (max-width: 400px) {
+      .sustainibility__header {
+        transform: translate(-50%, -35%);
+        font-size: 25rem; } }
   .sustainibility__text {
     font-family: "quincy_cflight_italic";
     font-weight: 600;
@@ -473,7 +515,10 @@ span {
   .sustainibility {
     height: 240rem; }
     .sustainibility__header {
-      top: 32rem; } }
+      top: 32rem; }
+    .sustainibility__text {
+      transform: translateY(-8rem);
+      font-size: 11rem; } }
 
 .sustainibility_2 {
   background-image: url(../images/homepageSostenibilidadImg.jpg);
@@ -486,6 +531,9 @@ span {
     width: 64%;
     margin-left: 18%;
     margin-right: 18%; }
+    @media screen and (max-width: 500px) {
+      .sustainibility_2__container {
+        padding-top: 0rem; } }
   .sustainibility_2__header {
     font-family: "quincy_cflight_italic";
     font-weight: 200;
@@ -493,7 +541,10 @@ span {
     color: #253d63;
     margin-bottom: 19.5rem;
     margin-top: 15rem;
-    width: 600rem; }
+    width: fit-content; }
+    @media screen and (max-width: 500px) {
+      .sustainibility_2__header {
+        margin-top: 5rem; } }
   .sustainibility_2__text {
     font-family: "muliregular", sans-serif;
     font-weight: 500;
@@ -502,6 +553,9 @@ span {
     line-height: 15.5rem;
     width: 63vw;
     letter-spacing: .3rem; }
+    @media screen and (min-width: 1000px) {
+      .sustainibility_2__text {
+        width: 100%; } }
 
 @media only screen and (max-width: 1000px) {
   .sustainibility_2 {
@@ -519,11 +573,12 @@ span {
 
 @media only screen and (max-width: 850px) {
   .sustainibility_2 {
-    height: 360rem; } }
+    height: min-content; } }
 
 @media only screen and (max-width: 780px) {
   .sustainibility_2 {
-    height: 360rem; } }
+    height: min-content;
+    padding-bottom: 20rem; } }
 
 .filosofia {
   position: relative;
@@ -554,6 +609,13 @@ span {
     padding-right: 20rem;
     padding-left: 20rem;
     z-index: 1; }
+    @media screen and (max-width: 450px) {
+      .filosofia__header {
+        transform: translate(-50%, -20%); } }
+    @media screen and (max-width: 410px) {
+      .filosofia__header {
+        transform: translate(-50%, -35%);
+        font-size: 30rem; } }
   .filosofia__subheader {
     font-family: "quincy_cflight_italic";
     font-size: 15rem;
